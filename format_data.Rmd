@@ -17,9 +17,8 @@ library(RColorBrewer)
 ```
 
 to do:
-make github
 add readme
-add example destination, roster table
+add tables at the end
 
 ```{r collect files}
 # When this project was done, I did 22 (2022-2023) school year and 23 (2023-2024) school year. 
@@ -155,180 +154,36 @@ data_framer <- function(file) {
 ```
 
 
-```{r}
-test <- data_framer('/Users/estrawbridge/Desktop/amherst/SDS Fellows/SustainabilitySDSFellowProject/Athletics Emissions/data/mice23.txt')
-```
+```{r get all data together}
+# for each year section
+prep_22 <- sapply(files_22, data_framer)
+prep_23 <- sapply(files_23, data_framer)
 
-formatify <- function(df) { 
- dfr <- dfr %>%
-  rename(placeh = c(1)) %>% 
-  mutate(placeh = str_replace_all(placeh, ":", "")) %>%
-  mutate(placeh = str_replace_all(placeh, "(EST)", "")) %>%
-  mutate(placeh = str_replace_all(placeh, "(ET)", "")) %>%
-  mutate(placeh = str_replace_all(placeh, "/", "")) %>%
-  mutate(placeh = str_replace_all(placeh, "TBD", "TB D")) %>%
-  mutate(placeh = str_replace_all(placeh, "TBA", "TB A")) %>%
-  mutate(placeh = str_replace_all(placeh, " PM or ", "")) %>% #this is not fixed
-    #need to take out "or" terms
-    #tournaments for basketball are getting sort of complicated
-  separate(placeh, c("A","B","C","D","E","F","G","H","I","J","K")) %>%
-  select("A", "B", "F", "G", "H") %>%
-  rename("month" = "A", #don't necessarily need month or day
-         "day" = "B",   
-         "h_a" = "F",
-         "loc" = "G",
-         "loc_2" = "H") %>% # 2nd parse for our repeats of "new" and "trinity" etc.
-  mutate(game_n = as.numeric(rownames(dfr)),
-         indicator = team_name[1]) %>%
-  select(game_n, indicator, loc, loc_2, h_a) %>%
-  mutate(
-    miles = ifelse(h_a == "Away", #should get away from the neutrals as well (no transportation). 
-        case_when( #i would do a left_join() here except there are some double conditions soooooo
-        loc == "Albertus" ~ 89,
-        loc == "Anna" ~ 43.4,
-        loc == "Babson" ~ 83.9,
-        loc == "Bates" ~ 207,
-        loc == "Bion" ~ 343.2,
-        loc == "Black" ~ 77.3,
-        loc == "Bowdoin" ~ 200,
-        loc == "BowdoinSuffolk" ~ 0, #this was part of a hockey tournament and they don't travel to the 2nd game
-        loc == "Brandeis" ~ 82.1,
-        loc == "Cardinal" ~ 66.9,
-        loc == "Castleton" ~ 123.1,
-        loc == "Chatham" ~ 517, #EIGHT HOURS OF DRIVING FOR A SQUASH GAME???
-        loc == "Clark" ~ 52.9,
-        loc == "Chapman" ~ 0,
-        loc == "CSA" ~ 259.7,
-        loc == "Coffey" ~ 7.7,
-        loc == "Colby" ~ 259,
-        loc == "Colby-Sawyer" ~ 116,
-        loc == "Collier" ~ 88.9,
-        #loc == "Concordia" ~, #texas
-        loc == "Connecticut" ~ 99, #includes conn college invitational
-        loc == "Cornell" ~ 260.8, #university not college
-        loc == "Cortland" ~ 256.7,
-        loc == "Curry" ~ 96.8,
-        loc == "Dartmouth" ~ 106.8,
-        loc == "Dickinson" ~ 362.8,
-        loc == "Eastern" ~ 99,
-        loc == "Elms" ~ 18.2,
-        loc == "Emerson" ~ 91.9, 
-        loc == "Endicott" ~ 110,
-        loc == "Fitchburg" ~ 50,
-        loc == "Franklin" ~ 329.8, #f&m
-        loc == "Gettysburg" ~ 390,
-        loc == "Gordon" ~ 115.8,
-        loc == "Hamilton" ~ 205,
-        loc == "Hemery" ~ 89.3,
-        loc == "Johnson" ~ 86.3,
-        loc == "Keene" ~ 45.9,
-        loc == "Lasell" ~ 81.9,
-        loc == "Lehman" ~ 182,
-        #loc == "Linfield" ~, #oregon
-        #loc == "Little" ~, #little 3 different from xc (connecticut) to tf (always wesleyan)
-        loc == "Lesley" ~ 87.9,
-        loc == "Manhattanville" ~ 136,
-        loc == "Marymount" ~ 403,
-        loc == "Massachusetts" ~ 88.9, #mit
-        loc == "Messiah" ~ 355.1,
-        loc == "Middlebury" ~ 85,
-        loc == "Misericordia" ~ 274,
-        loc == "MIT" ~ 88.9,
-        loc == "Montclair" ~ 177,
-        loc == "Mount" ~ 9.4, #mhc #this is not reading
-        loc == "Navy" ~ 375.9, #us naval academy, MD -- by car this is a crazy drive
-        loc == "Nelson" ~ 85,
-        loc == "New" & loc_2 == "England" ~ 80.1,
-        loc == "New" & loc_2 == "Jersey" ~ 178,
-        loc == "New" & loc_2 == "York" ~ 163.5, 
-        loc == "Nichols" ~ 51,
-        loc == "Northern" ~ 191.1,
-        loc == "Norwich" ~ 147.9,
-        loc == "Oswego" ~ 272.8,
-        #loc == "Pavlich" ~,
-        loc == "Phinney" ~ 85,
-        loc == "Pratt" ~ 166.7,
-        loc == "Purple" ~ 59.8, 
-        loc == "Ramapo" ~ 166,
-        loc == "Rhode" ~ 114.6,
-        loc == "RIT" ~ 322.9, 
-        loc == "Rowan" ~ 270.5,
-        loc == "Saint" ~ 192.1, #saint michael's college
-        loc == "Silfen" ~ 99,
-        loc == "Skidmore" ~ 133, #golf
-        loc == "Smith" ~ 7.7,
-        #loc == "Southwestern" ~, #texas
-        loc == "Springfield" ~ 27.6,
-        loc == "St" ~ 295.7, #st. lawrence university
-        loc == "Stevens" ~ 166.9,
-        loc == "Stockton" ~ 277.5,
-        loc == "Suffolk" ~ 92.3, 
-        loc == "SUNY" & loc_2 == "Geneseo" ~ 341.4, #this is not reading
-        loc == "SUNY" & loc_2 == "Poly" ~ 193.4,
-        loc == "Swanson" ~ 66.9,
-        loc == "Trinity" & loc_2 == "College" ~ 52.4,
-        loc == "Triangle" ~ 27.6, #in texas
-        loc == "Tufts" ~ 87.7,
-        loc == "UMass" & loc_2 == "Boston" ~ 94.3,
-        loc == "UMass" & loc_2 == "Dartmouth" ~ 113.3,
-        loc == "Union" ~ 115.5,
-        loc == "University" ~ 50.6, #university of hartford
-        loc == "Vermont" ~ 123, #vermont state university castleton
-        loc == "Wesleyan" ~ 66.9, #when swim has the wes meet they have a weird bus/van situation 
-        loc == "Western" ~ 21.2, #western new england university
-        loc == "Westfield" ~ 29.9,
-        loc == "Wheaton" ~ 95.3,
-        loc == "Williams" ~ 59.8,
-        loc == "Worcester" ~ 55.5, #worcester polytechnic institute
-        loc == "Yeshiva" ~ 157,
-        loc == "York" ~ 175,
-        .default = 1000), 0)
-  ) %>%
-  mutate(
-    n_veh = ifelse(h_a =="Away", 
-         case_when(
-         team_name == "tf" | team_name == "football" ~ 2,
-         .default = 1),1), 
-    transp_type = ifelse(h_a =="Away",
-                  case_when(
-                  team_name == "wgolf" | team_name == "wtennis" | team_name == "mgolf" | team_name == "mtennis" ~ "van",
-                  .default = "pete"
-                  ), "none"),
-    co_2gas = ifelse (h_a == "Away", case_when( #this is in kg also that's why i have *1000
-                     transp_type == "van" ~ miles*523*n_veh*2/1000,
-                     .default = miles*404*n_veh*2/1000 #pete
-                     ), 0) 
-         #driving 1 mile on average emits 404g of CO2 w/diesel (peter pan, grace with sus office) 
-         #driving 1 mile on average emits 523 of CO2 w/gas (van, epa and google) 
-        
-    ) %>%
-    #works up to here
-   mutate(
-    pop_trip = case_when( #includes coaches except for football (formatted as athletes+coaches)
-      team_name[1] == "mice" ~ 28+3,
-      team_name[1] == "wice" ~ 22+3, 
-      team_name[1] == "baseball" ~ 32+3, 
-      team_name[1] == "wbball" ~ 13+1, 
-      team_name[1] == "mbball"~ 15+3, 
-      team_name[1] == "xc" ~ 23+21+2, 
-      team_name[1] == "football" ~ 100, #+8 coaches
-      team_name[1] == "wgolf" ~ 9+1, #they have the same coach but don't always go to the same meets...
-      team_name[1] == "mgolf" ~ 11+1, #which won't change carbon emissions but will effect efficiency metric a bit
-      team_name[1] == "wlax" ~ 33+3, 
-      team_name[1] == "mlax" ~ 46+3, 
-      team_name[1] == "wsoc" ~ 27+3, 
-      team_name[1] == "msoc" ~ 35+4, 
-      team_name[1] == "wsq" ~ 14+2, #squash has 3 coaches but split them 
-      team_name[1] == "msq" ~ 16+2, 
-      team_name[1] == "sdt" ~ 27+23+4, #unsure if everyone goes to every meet
-      team_name[1] == "mtennis" ~ 12+2, 
-      team_name[1] == "wtennis" ~ 12+2, 
-      team_name[1] == "tf" ~ 44+56+6, #also not sure if everyone goes to every meet or if coaches drive
-      team_name[1] == "fhockey" ~ 22+3, 
-      team_name[1] == "softball" ~ 15+2,
-      team_name[1] == "vball" ~ 21+2,
-      .default = 0)
-   ) %>% 
-  mutate(co_2pcap = co_2gas/pop_trip)
-  return(dfr)
+# first we set up the data frame
+# getting the names for the columns
+colnames <- rownames(prep_22)
+
+# prepping the empty frame, and making it a global variable
+emissions_22 <- data.frame(matrix(ncol = nrow(prep_22), nrow = 0))
+colnames(emissions_22) <- colnames
+
+emissions_23 <- data.frame(matrix(ncol = nrow(prep_23), nrow = 0))
+colnames(emissions_23) <- colnames
+
+# get each
+create_emissions_22 <- function(col){
+  hold_data <- as.data.frame(col)
+  emissions_22 <- rbind(emissions_22,hold_data)
 }
+
+create_emissions_23 <- function(col){
+  hold_data <- as.data.frame(col)
+  emissions_22 <- rbind(emissions_23,hold_data)
+}
+
+# THIS here is what will run and collect all the data, run ONCE
+# ERRORS DOWN HERE THO IT"S EMPTY :(
+emissions_22 <- apply(X = prep_22, MARGIN = 2, FUN = create_emissions_22)
+
+emissions_23 <- apply(X = prep_23, MARGIN = 2, FUN = create_emissions_23)
+```
