@@ -1,0 +1,29 @@
+Amherst College
+2023 Men's Lacrosse Schedule
+
+Overall    12-6  .667
+Conference 6-4  .600
+Streak     L1
+Home       6-3
+Away       3-2
+Neutral    3-1
+
+Date           Time    At        Opponent                         Location                                       Tournament   Result 
+Mar 5 (Sun)    1 PM    Away      Hamilton College                 Clinton, NY                                                 W 15-10
+Mar 11 (Sat)   1 PM    Home      Tufts University                 Amherst, MA (Pratt Field at Lehrman Stadium)                L 21-23
+Mar 17 (Fri)   11 AM   Neutral   Bates College                    Owings Mills, MD                                            W 15-8 
+Mar 18 (Sat)   11 AM   Neutral   York College of Pennsylvania     Owings Mills, MD                                            W 19-16
+Mar 22 (Wed)   6 PM    Home      Springfield College              Amherst, MA (Gooding Field)                                 W 17-8 
+Mar 25 (Sat)   12 PM   Home      St. John Fisher University       Amherst, MA (Pratt Field at Lehrman Stadium)                W 22-15
+Mar 29 (Wed)   6 PM    Home      Western New England University   Amherst, MA (Gooding Field)                                 W 17-9 
+Apr 1 (Sat)    1 PM    Home      Bowdoin College                  Amherst, MA (Pratt Field at Lehrman Stadium)                W 13-12
+Apr 5 (Wed)    6 PM    Home      Wesleyan University              Amherst, MA (Pratt Field at Lehrman Stadium)                L 13-17
+Apr 8 (Sat)    1 PM    Away      Colby College                    Waterville, ME                                              W 16-12
+Apr 12 (Wed)   6 PM    Home      Connecticut College              Amherst, MA (Gooding Field)                                 W 15-11
+Apr 15 (Sat)   1 PM    Away      Williams College                 Williamstown, MA                                            L 10-11
+Apr 22 (Sat)   1 PM    Home      Middlebury College               Amherst, MA (Pratt Field at Lehrman Stadium)                L 11-17
+Apr 26 (Wed)   6 PM    Away      Trinity College (Conn.)          Hartford, CT                                                W 16-10
+Apr 29 (Sat)   1 PM    Home      Bowdoin College                  Amherst, MA (Pratt Field at Lehrman Stadium)                W 18-16
+May 6 (Sat)    12 PM   Away      Tufts University                 Medford, MA                                                 L 13-20
+May 13 (Sat)   3 PM    Neutral   SUNY Geneseo                     Salisbury, MD                                               W 17-11
+May 14 (Sun)   3 PM    Neutral   Salisbury University             Salisbury, MD                                               L 10-14

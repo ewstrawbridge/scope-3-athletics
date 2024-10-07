@@ -1,0 +1,32 @@
+Amherst College
+2022 Women's Soccer Schedule
+
+Overall    18-3  .857
+Conference 8-2  .800
+Streak     L1
+Home       9-1
+Away       8-1
+Neutral    1-1
+
+Date           Time      At        Opponent                   Location                                       Tournament   Result
+Sep 7 (Wed)    5 PM      Home      Springfield College        Amherst, MA (Hitchcock Field)                               W 5-2 
+Sep 10 (Sat)   12 PM     Home      Middlebury College         Amherst, MA (Hitchcock Field)                               W 4-3 
+Sep 11 (Sun)   2 PM      Away      Smith College              Northampton, MA (Smith College Soccer Field)                W 2-1 
+Sep 17 (Sat)   12 PM     Home      Tufts University           Amherst, MA (Hitchcock Field)                               L 0-2 
+Sep 20 (Tue)   7 PM      Away      Emerson College            Boston, MA (Rotch Field)                                    W 4-0 
+Sep 24 (Sat)   11 AM     Away      Bates College              Lewiston, ME (Russell Street Field)                         W 2-0 
+Sep 25 (Sun)   11 AM     Away      Colby College              Waterville, ME (Serdjenian Field)                           W 2-0 
+Oct 1 (Sat)    12 PM     Away      Williams College           Williamstown, MA (Cole Field)                               L 0-1 
+Oct 2 (Sun)    2 PM      Home      Lesley University          Amherst, MA (Hitchcock Field)                               W 7-0 
+Oct 8 (Sat)    12 PM     Home      Wesleyan University        Amherst, MA (Hitchcock Field)                               W 3-0 
+Oct 9 (Sun)    2 PM      Home      Bowdoin College            Amherst, MA (Hitchcock Field)                               W 2-1 
+Oct 16 (Sun)   12 PM     Away      New England College        Henniker, NH (Don Melander Field)                           W 9-0 
+Oct 18 (Tue)   7 PM      Home      Connecticut College        Amherst, MA (Gooding Field)                                 W 3-1 
+Oct 22 (Sat)   11 AM     Away      Hamilton College           Clinton, NY (Love Field)                                    W 1-0 
+Oct 25 (Tue)   7 PM      Away      Trinity College (Conn.)    Hartford, CT (Trinity Soccer Field)                         W 1-0 
+Oct 29 (Sat)   12 PM     Home      Connecticut College        Amherst, MA (Hitchcock Field)                               W 3-0 
+Nov 5 (Sat)    11 AM     Home      Tufts University           Amherst, MA (Hitchcock Field)                               W 1-0 
+Nov 6 (Sun)    12 PM     Home      Wesleyan University        Amherst, MA (Hitchcock Field)                               W 2-0 
+Nov 12 (Sat)   1 PM      Neutral   Westminster College (PA)   Rochester, NY (Tiger Stadium)                               W 3-0 
+Nov 13 (Sun)   3 PM      Away      RIT                        Rochester, NY (Tiger Stadium)                               W 1-0 
+Nov 19 (Sat)   1:30 PM   Neutral   William Smith College      Cleveland, OH (DiSanto Field)                               L 1-2

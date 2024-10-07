@@ -1,0 +1,26 @@
+Amherst College
+2024 Women's Lacrosse Schedule
+
+Overall    0-0  .000
+Conference 0-0  .000
+Streak     
+Home       0-0
+Away       0-0
+Neutral    0-0
+
+Date           Time    At     Opponent                                Location                                       Tournament   Result
+Mar 2 (Sat)    2 PM    Home   Middlebury College                      Amherst, MA (Pratt Field at Lehrman Stadium)                      
+Mar 6 (Wed)    6 PM    Home   Roger Williams University               Amherst, MA (Pratt Field at Lehrman Stadium)                      
+Mar 9 (Sat)    12 PM   Away   Hamilton College                        Clinton, NY                                                       
+Mar 16 (Sat)   TBD     Away   Colby College                           Waterville, ME                                                    
+Mar 20 (Wed)   6 PM    Away   Massachusetts Institute of Technology   Cambridge, MA                                                     
+Mar 23 (Sat)   12 PM   Home   Bowdoin College                         Amherst, MA (Pratt Field at Lehrman Stadium)                      
+Mar 26 (Tue)   6 PM    Home   Westfield State University              Amherst, MA (Gooding Field)                                       
+Mar 30 (Sat)   12 PM   Home   Stevens                                 Amherst, MA (Pratt Field at Lehrman Stadium)                      
+Apr 3 (Wed)    6 PM    Home   Wesleyan University                     Amherst, MA (Pratt Field at Lehrman Stadium)                      
+Apr 6 (Sat)    1 PM    Away   Williams College                        Williamstown, MA                                                  
+Apr 10 (Wed)   6 PM    Home   Connecticut College                     Amherst, MA (Gooding Field)                                       
+Apr 13 (Sat)   12 PM   Away   Bates College                           Lewiston, ME                                                      
+Apr 14 (Sun)   1 PM    Home   Babson College                          Amherst, MA (Pratt Field at Lehrman Stadium)                      
+Apr 20 (Sat)   1 PM    Home   Tufts University                        Amherst, MA (Pratt Field at Lehrman Stadium)                      
+Apr 24 (Wed)   6 PM    Away   Trinity College (Conn.)                 Hartford, CT

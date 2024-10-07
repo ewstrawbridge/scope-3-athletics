@@ -1,0 +1,48 @@
+Amherst College
+2023 Baseball Schedule
+
+Overall    21-14-1  .597
+Conference 6-6  .500
+Streak     L1
+Home       8-6
+Away       8-7-1
+Neutral    5-1
+
+Date           Time       At        Opponent                                Location                                  Tournament   Result   
+Mar 8 (Wed)    3 PM       Away      Springfield College                     Springfield, MA                                        T 8-8    
+Mar 13 (Mon)   6:30 PM    Neutral   Emerson College                         Auburndale, FL / Lake Myrtle Field #4                  W 13-4   
+Mar 14 (Tue)   4:30 PM    Neutral   The College of New Jersey               Auburndale, FL / Lake Myrtle Main Field                W 5-3    
+Mar 14 (Tue)   7 PM       Neutral   The College of New Jersey               Auburndale, FL / Lake Myrtle Main Field                L 4-5    
+Mar 16 (Thu)   12:45 PM   Neutral   Beloit College                          Auburndale, FL / Lake Myrtle Field #2                  W 13-1   
+Mar 17 (Fri)   9 AM       Neutral   SUNY Cobleskill                         Auburndale, FL / Lake Myrtle Field #5                  W 15-9   
+Mar 17 (Fri)   12 PM      Neutral   SUNY Cobleskill                         Auburndale, FL / Lake Myrtle Field #5                  W 2-1    
+Mar 21 (Tue)   3:30 PM    Home      Worcester Polytechnic Institute         Amherst, MA (Memorial Field)                           W 8-4    
+Mar 22 (Wed)   3:30 PM    Away      Western New England University          Springfield, MA                                        L 12-27  
+Mar 26 (Sun)   1 PM       Away      Wheaton College (Mass.)                 Norton, MA                                             L 5-9    
+Mar 29 (Wed)   4 PM       Home      Clark University                        Amherst, MA (Memorial Field)                           W 17-3   
+Apr 2 (Sun)    12 PM      Away      Hamilton College                        Clinton, NY                                            L 1-2    
+Apr 2 (Sun)    3 PM       Away      Hamilton College                        Clinton, NY                                            L 10-20  
+Apr 4 (Tue)    4 PM       Away      Westfield State University              Westfield, MA                                          W 6-3    
+Apr 7 (Fri)    3:30 PM    Home      Tufts University                        Amherst, MA (Memorial Field)                           L 3-4    
+Apr 8 (Sat)    12 PM      Home      Tufts University                        Amherst, MA (Memorial Field)                           W 15-2   
+Apr 8 (Sat)    3 PM       Home      Tufts University                        Amherst, MA (Memorial Field)                           L 7-8    
+Apr 11 (Tue)   3:30 PM    Home      Brandeis University                     Amherst, MA (Memorial Field)                           W 14-3   
+Apr 12 (Wed)   3:30 PM    Home      Salve Regina                            Amherst, MA (Memorial Field)                           L 3-20   
+Apr 14 (Fri)   4 PM       Home      Williams College                        Amherst, MA (Memorial Field)                           W 8-6    
+Apr 15 (Sat)   1 PM       Away      Williams College                        Williamstown, MA                                       W 9-0    
+Apr 15 (Sat)   4 PM       Away      Williams College                        Williamstown, MA                                       W 13-6   
+Apr 16 (Sun)   2 PM       Away      Hamilton College                        Clinton, NY                                            W 15-5   
+Apr 19 (Wed)   6 PM       Away      Trinity College (Conn.)                 Hartford, CT                                           W 5-3    
+Apr 21 (Fri)   4 PM       Away      Wesleyan University                     Middletown, CT                                         L 7-8    
+Apr 22 (Sat)   1 PM       Home      Wesleyan University                     Amherst, MA (Memorial Field)                           W 8-4    
+Apr 22 (Sat)   4 PM       Home      Wesleyan University                     Amherst, MA (Memorial Field)                           L 2-6    
+Apr 25 (Tue)   3:30 PM    Home      Elms College                            Amherst, MA (Memorial Field)                           W 9-6    
+Apr 26 (Wed)   4 PM       Away      Massachusetts Institute of Technology   Cambridge, MA                                          W 12-6   
+Apr 28 (Fri)   4 PM       Home      Middlebury College                      Amherst, MA (Memorial Field)                           L 6-7    
+Apr 29 (Sat)   1 PM       Home      Middlebury College                      Amherst, MA (Memorial Field)                           L 3-5    
+Apr 29 (Sat)   4 PM       Home      Middlebury College                      Amherst, MA (Memorial Field)                           W 13-2   
+May 3 (Wed)    3:30 PM    Home      UMass Boston                            Amherst, MA (Memorial Field)                           Cancelled
+May 3 (Wed)    3:30 PM    Away      Fitchburg State College                 Fitchburg, MA                                          W 15-7   
+May 6 (Sat)    12 PM      Away      Tufts University                        Medford, MA                                            L 6-12   
+May 6 (Sat)    3 PM       Away      Tufts University                        Medford, MA                                            W 8-3    
+May 7 (Sun)    11 AM      Away      Tufts University                        Medford, MA                                            L 5-12

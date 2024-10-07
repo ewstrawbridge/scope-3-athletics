@@ -1,0 +1,30 @@
+Amherst College
+2023 Volleyball Schedule
+
+Overall    6-9  .400
+Conference 3-5  .375
+Streak     L3
+Home       3-3
+Away       2-5
+Neutral    1-1
+
+Date           Time       At        Opponent                     Location                         Tournament   Result
+Sep 6 (Wed)    7 PM       Home      Smith College                Amherst, MA (LeFrak Gymnasium)                W 3-2 
+Sep 8 (Fri)    7 PM       Neutral   Babson College               New York, NY                                  L 0-3 
+Sep 9 (Sat)    12:30 PM   Neutral   Stockton University          New York, NY                                  W 3-1 
+Sep 9 (Sat)    5:30 PM    Away      New York University          New York, NY                                  L 0-3 
+Sep 12 (Tue)   7 PM       Home      Wheaton College              Amherst, MA (LeFrak Gymnasium)                L 0-3 
+Sep 15 (Fri)   7 PM       Away      Hamilton College             Clinton, NY                                   L 2-3 
+Sep 16 (Sat)   2 PM       Away      Middlebury College           Middlebury, VT                                L 0-3 
+Sep 19 (Tue)   7 PM       Home      Johnson & Wales University   Amherst, MA (LeFrak Gymnasium)                W 3-0 
+Sep 22 (Fri)   7 PM       Away      Williams College             Williamstown, MA                              L 0-3 
+Sep 29 (Fri)   7 PM       Away      Bowdoin College              Brunswick, ME                                 W 3-0 
+Sep 30 (Sat)   2 PM       Away      Connecticut College          New London, CT                                W 3-0 
+Oct 6 (Fri)    7 PM       Home      Trinity College              Amherst, MA (LeFrak Gymnasium)                W 3-2 
+Oct 7 (Sat)    2 PM       Home      Wesleyan University          Amherst, MA (LeFrak Gymnasium)                L 0-3 
+Oct 12 (Thu)   7 PM       Home      Springfield College          Amherst, MA (LeFrak Gymnasium)                L 0-3 
+Oct 14 (Sat)   230 PM    Away      Tufts University             Medford, MA                                   L 0-3 
+Oct 20 (Fri)   7 PM       Home      UMass Dartmouth              Amherst, MA (LeFrak Gymnasium)                      
+Oct 21 (Sat)   2 PM       Home      University of Hartford       Amherst, MA (LeFrak Gymnasium)                      
+Oct 27 (Fri)   7 PM       Home      Bates College                Amherst, MA (LeFrak Gymnasium)                      
+Oct 28 (Sat)   2 PM       Home      Colby College                Amherst, MA (LeFrak Gymnasium)

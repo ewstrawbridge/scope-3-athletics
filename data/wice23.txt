@@ -1,0 +1,35 @@
+Amherst College
+2023-24 Women's Ice Hockey Schedule
+
+Overall    0-0-0  .000
+Conference 0-0-0  .000
+Streak     
+Home       0-0-0
+Away       0-0-0
+Neutral    0-0-0
+
+Date           Time         At        Opponent                             Location                 Tournament   Result
+Nov 18 (Sat)   4 PM         Away      Hamilton College                     Clinton, NY                                 
+Nov 19 (Sun)   3 PM         Away      Hamilton College                     Clinton, NY                                 
+Nov 25 (Sat)   4 PM         Away      UMass Boston                         Boston, MA                                  
+Nov 26 (Sun)   12 PM/4 PM   Neutral   Bowdoin/Suffolk                      Boston, MA                                  
+Dec 1 (Fri)    7 PM         Home      Middlebury College                   Amherst, MA (Orr Rink)                      
+Dec 2 (Sat)    3 PM         Home      Middlebury College                   Amherst, MA (Orr Rink)                      
+Dec 8 (Fri)    7 PM         Home      Manhattanville College               Amherst, MA (Orr Rink)                      
+Dec 31 (Sun)   1 PM         Home      Oswego State                         Amherst, MA (Orr Rink)                      
+Jan 2 (Tue)    3 PM         Home      Vermont State University Castleton   Amherst, MA (Orr Rink)                      
+Jan 6 (Sat)    7:30 PM      Away      Trinity College (Conn.)              Hartford, CT                                
+Jan 7 (Sun)    4 PM         Away      Trinity College (Conn.)              Hartford, CT                                
+Jan 12 (Fri)   7 PM         Away      Connecticut College                  New London, CT                              
+Jan 13 (Sat)   3 PM         Away      Connecticut College                  New London, CT                              
+Jan 16 (Tue)   6 PM         Away      Norwich University                   Northfield, VT                              
+Jan 20 (Sat)   3 PM         Home      Wesleyan University                  Amherst, MA (Orr Rink)                      
+Jan 21 (Sun)   3 PM         Home      Wesleyan University                  Amherst, MA (Orr Rink)                      
+Jan 26 (Fri)   7 PM         Away      Bowdoin College                      Brunswick, ME                               
+Jan 27 (Sat)   3 PM         Away      Bowdoin College                      Brunswick, ME                               
+Feb 2 (Fri)    7 PM         Home      Colby College                        Amherst, MA (Orr Rink)                      
+Feb 3 (Sat)    3 PM         Home      Colby College                        Amherst, MA (Orr Rink)                      
+Feb 6 (Tue)    7 PM         Home      Western New England University       Amherst, MA (Orr Rink)                      
+Feb 9 (Fri)    7 PM         Away      Curry College                        Milton, MA                                  
+Feb 16 (Fri)   7 PM         Away      Williams College                     Williamstown, MA                            
+Feb 17 (Sat)   7:30 PM      Home      Williams College                     Amherst, MA (Orr Rink)

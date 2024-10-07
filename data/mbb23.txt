@@ -1,0 +1,35 @@
+Amherst College
+2023-24 Men's Basketball Schedule
+
+Overall    0-0  .000
+Conference 0-0  .000
+Streak     
+Home       0-0
+Away       0-0
+Neutral    0-0
+
+Date           Time            At        Opponent                             Location                         Tournament   Result
+Nov 10 (Fri)   6 PM            Home      Anna Maria College                   Amherst, MA (LeFrak Gymnasium)                      
+Nov 17 (Fri)   5 PM            Home      Vermont State University Castleton   Amherst, MA (LeFrak Gymnasium)                      
+Nov 18 (Sat)   12 PM or 2 PM   Home      MCLA / Thomas                        Amherst, MA (LeFrak Gymnasium)                      
+Nov 21 (Tue)   7:30 PM         Home      Colby-Sawyer College                 Amherst, MA (LeFrak Gymnasium)                      
+Nov 28 (Tue)   7 PM            Home      Rhode Island College                 Amherst, MA (LeFrak Gymnasium)                      
+Nov 30 (Thu)   7 PM            Away      Springfield College                  Springfield, MA                                     
+Dec 3 (Sun)    1 PM            Home      Yeshiva University                   Amherst, MA (LeFrak Gymnasium)                      
+Dec 5 (Tue)    7 PM            Home      Albertus Magnus College              Amherst, MA (LeFrak Gymnasium)                      
+Dec 7 (Thu)    7 PM            Away      York College (NY)                    Jamaica, NY                                         
+Dec 9 (Sat)    12 PM           Home      Westfield State University           Amherst, MA (LeFrak Gymnasium)                      
+Dec 29 (Fri)   1 PM            Away      Stevens Institute of Technology      Hoboken, NJ                                         
+Dec 30 (Sat)   1 PM or 5 PM    Neutral   Gettysburg / WPI                     Hoboken, NJ                                         
+Jan 2 (Tue)    7 PM            Home      Wesleyan University                  Amherst, MA (LeFrak Gymnasium)                      
+Jan 5 (Fri)    7 PM            Away      Williams College                     Williamstown, MA                                    
+Jan 6 (Sat)    3 PM            Away      Middlebury College                   Middlebury, VT                                      
+Jan 12 (Fri)   7 PM            Home      Tufts University                     Amherst, MA (LeFrak Gymnasium)                      
+Jan 13 (Sat)   3 PM            Home      Bates College                        Amherst, MA (LeFrak Gymnasium)                      
+Jan 17 (Wed)   7 PM            Home      Williams College                     Amherst, MA (LeFrak Gymnasium)                      
+Jan 20 (Sat)   3 PM            Home      Hamilton College                     Amherst, MA (LeFrak Gymnasium)                      
+Jan 26 (Fri)   7 PM            Away      Wesleyan University                  Middletown, CT                                      
+Jan 27 (Sat)   3 PM            Away      Trinity College (Conn.)              Hartford, CT                                        
+Feb 2 (Fri)    7 PM            Away      Connecticut College                  New London, CT                                      
+Feb 9 (Fri)    7 PM            Home      Colby College                        Amherst, MA (LeFrak Gymnasium)                      
+Feb 10 (Sat)   3 PM            Home      Bowdoin College                      Amherst, MA (LeFrak Gymnasium)

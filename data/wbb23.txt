@@ -1,0 +1,35 @@
+Amherst College
+2023-24 Women's Basketball Schedule
+
+Overall    6-0  1.000
+Conference 0-0  .000
+Streak     W6
+Home       3-0
+Away       1-0
+Neutral    2-0
+
+Date           Time    At        Opponent                     Location                           Tournament   Result 
+Nov 14 (Tue)   6 PM    Home      Gordon College               Amherst, MA (LeFrak Gymnasium)                  W 73-47
+Nov 17 (Fri)   7 PM    Neutral   Oswego State                 Morrisville, NY                                 W 61-33
+Nov 18 (Sat)   3 PM    Neutral   Misericordia University      Morrisville, NY                                 W 75-44
+Nov 21 (Tue)   5 PM    Home      Albertus Magnus College      Amherst, MA (LeFrak Gymnasium)                  W 64-57
+Nov 27 (Mon)   6 PM    Home      New Jersey City University   Amherst, MA (LeFrak Gymnasium)                  W 70-55
+Dec 2 (Sat)    2 PM    Away      Wesleyan University          Middletown, CT                                  W 70-55
+Dec 8 (Fri)    5 PM    Home      SUNY Poly                    Amherst, MA (LeFrak Gymnasium)                         
+Dec 29 (Fri)   12 PM   Neutral   Husson University            Daytona Beach, FL (Ocean Center)                       
+Dec 30 (Sat)   12 PM   Neutral   Clarkson University          Daytona Beach, FL (Ocean Center)                       
+Jan 3 (Wed)    7 PM    Away      Elms College                 Chicopee, MA                                           
+Jan 5 (Fri)    7 PM    Home      Williams College             Amherst, MA (LeFrak Gymnasium)                         
+Jan 6 (Sat)    3 PM    Home      Middlebury College           Amherst, MA (LeFrak Gymnasium)                         
+Jan 8 (Mon)    3 PM    Home      Rowan University             Amherst, MA (LeFrak Gymnasium)                         
+Jan 12 (Fri)   7 PM    Away      Tufts University             Medford, MA                                            
+Jan 13 (Sat)   3 PM    Away      Bates College                Lewiston, ME                                           
+Jan 17 (Wed)   7 PM    Away      Williams College             Williamstown, MA                                       
+Jan 20 (Sat)   3 PM    Away      Hamilton College             Clinton, NY                                            
+Jan 22 (Mon)   4 PM    Home      Lehman College               Amherst, MA (LeFrak Gymnasium)                         
+Jan 26 (Fri)   7 PM    Home      Wesleyan University          Amherst, MA (LeFrak Gymnasium)                         
+Jan 27 (Sat)   3 PM    Home      Trinity College (Conn.)      Amherst, MA (LeFrak Gymnasium)                         
+Jan 30 (Tue)   7 PM    Away      Colby-Sawyer College         New London, NH                                         
+Feb 2 (Fri)    7 PM    Home      Connecticut College          Amherst, MA (LeFrak Gymnasium)                         
+Feb 9 (Fri)    7 PM    Away      Colby College                Waterville, ME                                         
+Feb 10 (Sat)   3 PM    Away      Bowdoin College              Brunswick, ME

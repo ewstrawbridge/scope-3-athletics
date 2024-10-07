@@ -1,0 +1,33 @@
+Amherst College
+2022-23 Women's Tennis Schedule
+
+Overall    14-5  .737
+Conference 8-2  .800
+Streak     L1
+Home       6-0
+Away       5-3
+Neutral    3-2
+
+Date           Time        At        Opponent                             Location                                                                          Tournament   Result   
+Sep 16 (Fri)   9 AM        Neutral   M.I.T. Fall Invitational             Cambridge, MA (Dupont Tennis Courts)                                                                    
+Sep 23 (Fri)   9 AM        Neutral   Intercollegiate Tennis Association   Williamstown, MA                                                                                        
+Mar 4 (Sat)    11 AM       Home      Bowdoin College                      Ludlow, MA (Ludlow Tennis Club)                                                                W 5-4    
+Mar 5 (Sun)    11 AM       Home      Colby College                        Ludlow, MA (Ludlow Tennis Club)                                                                W 6-3    
+Mar 12 (Sun)   1 PM (ET)   Neutral   Sewanee                              Claremont, CA / Pomona-Pitzer Colleges (Pauley Tennis Complex)                                 W 7-2    
+Mar 13 (Mon)   2 PM (ET)   Away      Pomona-Pitzer                        Claremont, CA                                                                                  L 2-7    
+Mar 15 (Wed)   1 PM (ET)   Away      Claremont-Mudd-Scripps Colleges      Claremont, CA                                                                                  Cancelled
+Mar 17 (Fri)   1 PM (ET)   Neutral   Washington University in St. Louis   Claremont, CA / Claremont-Mudd-Scripps Colleges (Biszantz Family Tennis Center)                W 7-2    
+Mar 26 (Sun)   10 AM       Away      Connecticut College                  New London, CT                                                                                 W 9-0    
+Apr 1 (Sat)    12:30 PM    Home      Tufts University                     Ludlow, MA (Ludlow Tennis Club)                                                                W 5-4    
+Apr 2 (Sun)    2 PM        Home      Bates College                        Ludlow, MA (Ludlow Tennis Club)                                                                W 8-1    
+Apr 8 (Sat)    10 AM       Away      Hamilton College                     Clinton, NY                                                                                    W 7-2    
+Apr 11 (Tue)   4 PM        Away      Trinity College                      Hartford, CT                                                                                   W 9-0    
+Apr 15 (Sat)   1 PM        Away      Skidmore College                     Saratoga Springs, NY                                                                           W 7-2    
+Apr 16 (Sun)   2 PM        Away      Wesleyan University                  Middletown, CT                                                                                 L 3-6    
+Apr 22 (Sat)   10 AM       Away      Middlebury College                   Middlebury, VT                                                                                 L 4-5    
+Apr 23 (Sun)   10 AM       Away      Williams College                     Williamstown, MA                                                                               W 5-4    
+Apr 28 (Fri)   11:30 AM    Neutral   Bowdoin College                      Middlebury, VT                                                                                 W 5-1    
+Apr 29 (Sat)   8:45 AM     Neutral   Wesleyan University                  Bennington, VT                                                                                 L 2-5    
+May 6 (Sat)    10 AM       Home      SUNY New Paltz                       Amherst, MA (Amherst Tennis Courts)                                                            W 5-0    
+May 7 (Sun)    12 PM       Home      Babson College                       Amherst, MA (Amherst Tennis Courts)                                                            W 5-3    
+May 14 (Sun)   12:00 PM    Neutral   Claremont-Mudd-Scripps Colleges      Orlando, FL                                                                                    L 4-5

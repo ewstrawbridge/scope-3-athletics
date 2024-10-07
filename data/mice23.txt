@@ -1,0 +1,35 @@
+Amherst College
+2023-24 Men's Ice Hockey Schedule
+
+Overall    0-0-0  .000
+Conference 0-0-0  .000
+Streak     
+Home       0-0-0
+Away       0-0-0
+Neutral    0-0-0
+
+Date           Time   At     Opponent                  Location                 Tournament   Result
+Nov 17 (Fri)   7 PM   Away   Hamilton College          Clinton, NY                                 
+Nov 21 (Tue)   4 PM   Home   Saint Michael's College   Amherst, MA (Orr Rink)                      
+Nov 25 (Sat)   3 PM   Home   SUNY Geneseo              Amherst, MA (Orr Rink)                      
+Nov 26 (Sun)   3 PM   Away   Babson College            Babson Park, MA                             
+Dec 1 (Fri)    7 PM   Away   Wesleyan University       Middletown, CT                              
+Dec 2 (Sat)    4 PM   Away   Trinity College (Conn.)   Hartford, CT                                
+Dec 8 (Fri)    7 PM   Away   Williams College          Williamstown, MA                            
+Dec 9 (Sat)    4 PM   Away   Middlebury College        Middlebury, VT                              
+Dec 31 (Sun)   2 PM   Away   Endicott College          Beverly, MA                                 
+Jan 2 (Tue)    3 PM   Away   Curry College             Milton, MA                                  
+Jan 5 (Fri)    7 PM   Home   Bowdoin College           Amherst, MA (Orr Rink)                      
+Jan 6 (Sat)    3 PM   Home   Colby College             Amherst, MA (Orr Rink)                      
+Jan 12 (Fri)   7 PM   Home   Tufts University          Amherst, MA (Orr Rink)                      
+Jan 13 (Sat)   3 PM   Home   Connecticut College       Amherst, MA (Orr Rink)                      
+Jan 19 (Fri)   7 PM   Home   Hamilton College          Amherst, MA (Orr Rink)                      
+Jan 20 (Sat)   TBD    Away   Anna Maria College        Paxton, MA                                  
+Jan 26 (Fri)   7 PM   Home   Wesleyan University       Amherst, MA (Orr Rink)                      
+Jan 27 (Sat)   3 PM   Home   Trinity College (Conn.)   Amherst, MA (Orr Rink)                      
+Feb 2 (Fri)    7 PM   Away   Bowdoin College           Brunswick, ME                               
+Feb 3 (Sat)    3 PM   Away   Colby College             Waterville, ME                              
+Feb 9 (Fri)    7 PM   Away   Tufts University          Medford, MA                                 
+Feb 10 (Sat)   3 PM   Away   Connecticut College       New London, CT                              
+Feb 16 (Fri)   7 PM   Home   Williams College          Amherst, MA (Orr Rink)                      
+Feb 17 (Sat)   3 PM   Home   Middlebury College        Amherst, MA (Orr Rink)

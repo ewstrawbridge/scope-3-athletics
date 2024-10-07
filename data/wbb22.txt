@@ -1,0 +1,36 @@
+Amherst College
+2022-23 Women's Basketball Schedule
+
+Overall    17-8  .680
+Conference 5-5  .500
+Streak     L1
+Home       9-2
+Away       6-5
+Neutral    2-1
+
+Date           Time            At        Opponent                     Location                                               Tournament   Result 
+Nov 11 (Fri)   7 PM            Home      Springfield College          Amherst, MA (LeFrak Gymnasium)                                      W 54-50
+Nov 13 (Sun)   1 PM            Home      Rowan University             Amherst, MA (LeFrak Gymnasium)                                      W 57-50
+Nov 16 (Wed)   7 PM            Away      Gordon College               Wenham, MA (Bennett Center)                                         W 52-41
+Nov 29 (Tue)   7 PM            Home      Emmanuel College             Amherst, MA (LeFrak Gymnasium)                                      W 58-53
+Dec 4 (Sun)    3 PM            Away      New Jersey City University   Jersey City, NJ (Moore Athletics and Fitness Center)                W 76-68
+Dec 5 (Mon)    7 PM            Home      Wesleyan University          Amherst, MA (LeFrak Gymnasium)                                      W 65-55
+Dec 10 (Sat)   1 PM            Home      Lehman College               Amherst, MA (LeFrak Gymnasium)                                      W 68-42
+Dec 28 (Wed)   5 PM (EST)      Neutral   Montclair State University   Las Vegas, NV (South Point Arena)                                   W 61-51
+Dec 29 (Thu)   3 PM (EST)      Neutral   Concordia College (Minn.)    Las Vegas, NV (South Point Arena)                                   L 68-79
+Dec 31 (Sat)   4:30 PM (EST)   Neutral   Whittier College             Orange, CA (Hutton Sports Center)                                   W 53-42
+Jan 1 (Sun)    5 PM (EST)      Away      Chapman University           Orange, CA (Hutton Sports Center)                                   L 64-69
+Jan 6 (Fri)    7 PM            Away      Williams College             Williamstown, MA (Chandler Athletic Center)                         W 60-57
+Jan 7 (Sat)    3 PM            Away      Middlebury College           Middlebury, VT (Pepin Gymnasium)                                    L 45-47
+Jan 9 (Mon)    12 PM           Away      Worcester State University   Worcester, MA (Lancer Gymnasium)                                    W 72-53
+Jan 13 (Fri)   7 PM            Home      Tufts University             Amherst, MA (LeFrak Gymnasium)                                      L 54-56
+Jan 14 (Sat)   3 PM            Home      Bates College                Amherst, MA (LeFrak Gymnasium)                                      W 52-48
+Jan 18 (Wed)   7 PM            Home      Williams College             Amherst, MA (LeFrak Gymnasium)                                      W 50-40
+Jan 21 (Sat)   3 PM            Home      Hamilton College             Amherst, MA (LeFrak Gymnasium)                                      L 47-50
+Jan 24 (Tue)   5 PM            Away      SUNY Poly                    Utica, NY (Campus Center Gym)                                       W 86-54
+Jan 27 (Fri)   7 PM            Away      Wesleyan University          Middletown, CT (Silloway Gymnasium)                                 L 61-65
+Jan 28 (Sat)   3 PM            Away      Trinity College              Hartford, CT (Ferris Athletic Center)                               L 45-51
+Feb 3 (Fri)    7 PM            Away      Connecticut College          New London, CT (Luce Fieldhouse)                                    W 58-47
+Feb 10 (Fri)   7 PM            Home      Colby College                Amherst, MA (LeFrak Gymnasium)                                      W 56-42
+Feb 11 (Sat)   3 PM            Home      Bowdoin College              Amherst, MA (LeFrak Gymnasium)                                      W 64-45
+Feb 18 (Sat)   2 PM            Away      Trinity College              Hartford, CT (Ferris Athletic Center)                               L 57-58

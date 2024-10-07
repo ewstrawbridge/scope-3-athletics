@@ -1,0 +1,30 @@
+Amherst College
+2023-24 Women's Squash Schedule
+
+Overall    0-0  .000
+Conference 0-0  .000
+Streak     
+Home       0-0
+Away       0-0
+Neutral    0-0
+
+Date           Time      At        Opponent                                      Location                                Tournament   Result
+Nov 18 (Sat)   12 PM     Away      Connecticut College                           TBD                                                        
+Nov 19 (Sun)   12 PM     Home      Cornell University                            Amherst, MA                                                
+Dec 2 (Sat)    10 AM     Home      Mount Holyoke College                         Amherst, MA                                                
+Dec 2 (Sat)    2 PM      Home      Hamilton College                              Amherst, MA                                                
+Dec 5 (Tue)    6 PM      Home      Trinity College                               Amherst, MA                                                
+Dec 9 (Sat)    1 PM      Away      Tufts University                              Medford, MA                                                
+Jan 5 (Fri)    4:30 PM   Home      Dickinson College                             Amherst, MA                                                
+Jan 6 (Sat)    12 PM     Home      Franklin and Marshall College                 Amherst, MA                                                
+Jan 7 (Sun)    11 AM     Home      Georgetown University                         Amherst, MA                                                
+Jan 13 (Sat)   2 PM      Home      Dartmouth College                             Amherst, MA                                                
+Jan 14 (Sun)   12 PM     Home      Princeton University                          Amherst, MA                                                
+Jan 17 (Wed)   2:30 PM   Away      Bowdoin College                               Brunswick, ME                                              
+Jan 19 (Fri)   5 PM      Away      Colby College                                 Waterville, ME                                             
+Jan 20 (Sat)   4 PM      Away      Bates College                                 Lewiston, ME                                               
+Jan 23 (Tue)   5 PM      Away      Wesleyan University                           Middletown, CT                                             
+Jan 25 (Thu)   6 PM      Away      St. Lawrence University                       Canton, NY                                                 
+Jan 26 (Fri)   6 PM      Neutral    Chatham University@St. Lawrence University   Canton, NY                                                 
+Feb 2 (Fri)    5 PM      Home      Williams College                              Amherst, MA (Davenport Squash Courts)                      
+Feb 4 (Sun)    2 PM      Home      Middlebury College                            Amherst, MA (Davenport Squash Courts)

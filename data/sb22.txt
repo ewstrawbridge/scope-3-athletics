@@ -1,0 +1,48 @@
+Amherst College
+2023 Softball Schedule
+
+Overall    24-13  .649
+Conference 12-6  .667
+Streak     L2
+Home       7-5
+Away       7-5
+Neutral    10-3
+
+Date           Time         At        Opponent                          Location                               Tournament   Result
+Mar 12 (Sun)   11:30 A.M.   Neutral   Bethel University                 Kissimmee, FL                                       L 2-6 
+Mar 12 (Sun)   2 PM         Neutral   Farmingdale State College         Kissimmee, FL                                       W 12-4
+Mar 14 (Tue)   9 AM         Neutral   North Park University             Kissimmee, FL                                       W 5-3 
+Mar 14 (Tue)   2 PM         Neutral   Kenyon College                    Kissimmee, FL                                       W 8-0 
+Mar 15 (Wed)   9 AM         Neutral   Hamline University                Kissimmee, FL                                       W 3-2 
+Mar 15 (Wed)   11:30 AM     Neutral   Loras College                     Kissimmee, FL                                       W 8-6 
+Mar 16 (Thu)   2 PM         Neutral   Wheaton College (Mass.)           Kissimmee, FL                                       L 3-4 
+Mar 16 (Thu)   4:30 PM      Neutral   Meredith College                  Kissimmee, FL                                       W 10-8
+Mar 17 (Fri)   11:30 AM     Neutral   University of New England         Kissimmee, FL                                       W 16-0
+Mar 17 (Fri)   2 PM         Neutral   University of Southern Maine      Kissimmee, FL                                       W 6-5 
+Mar 18 (Sat)   9 AM         Neutral   Union College                     Clermont, FL                                        W 6-5 
+Mar 18 (Sat)   11:30 AM     Neutral   Carleton College                  Clermont, FL                                        W 12-1
+Mar 22 (Wed)   3:30 PM      Away      Worcester Polytechnic Institute   Worcester, MA                                       W 8-2 
+Mar 22 (Wed)   5:30 PM      Away      Worcester Polytechnic Institute   Worcester, MA                                       W 11-9
+Mar 26 (Sun)   1 PM         Home      Bowdoin College                   Amherst, MA (Amherst Softball Field)                L 4-9 
+Mar 26 (Sun)   3 PM         Home      Bowdoin College                   Amherst, MA (Amherst Softball Field)                W 5-0 
+Apr 7 (Fri)    2:30 PM      Away      Tufts University                  Medford, MA                                         L 1-9 
+Apr 7 (Fri)    5 PM         Away      Tufts University                  Medford, MA                                         L 2-8 
+Apr 8 (Sat)    2 PM         Away      Middlebury College                Middlebury, VT                                      L 3-5 
+Apr 8 (Sat)    4 PM         Away      Middlebury College                Middlebury, VT                                      L 5-8 
+Apr 12 (Wed)   3 PM         Home      Springfield College               Amherst, MA (Amherst Softball Field)                L 3-6 
+Apr 12 (Wed)   5 PM         Home      Springfield College               Amherst, MA (Amherst Softball Field)                L 6-7 
+Apr 15 (Sat)   12 PM        Home      Trinity College (Conn.)           Amherst, MA (Amherst Softball Field)                W 2-1 
+Apr 15 (Sat)   2 PM         Home      Trinity College (Conn.)           Amherst, MA (Amherst Softball Field)                W 9-6 
+Apr 16 (Sun)   12 PM        Home      Bates College                     Amherst, MA (Amherst Softball Field)                W 3-2 
+Apr 16 (Sun)   2 PM         Home      Bates College                     Amherst, MA (Amherst Softball Field)                W 3-1 
+Apr 19 (Wed)   3:30 PM      Home      Western New England University    Amherst, MA (Amherst Softball Field)                L 0-1 
+Apr 19 (Wed)   5:30 PM      Home      Western New England University    Amherst, MA (Amherst Softball Field)                L 2-3 
+Apr 21 (Fri)   3:30 PM      Away      Williams College                  Williamstown, MA                                    W 4-1 
+Apr 21 (Fri)   5:30 PM      Away      Williams College                  Williamstown, MA                                    W 7-2 
+Apr 22 (Sat)   2 PM         Home      Hamilton College                  Amherst, MA (Amherst Softball Field)                W 5-2 
+Apr 22 (Sat)   4 PM         Home      Hamilton College                  Amherst, MA (Amherst Softball Field)                W 8-4 
+Apr 26 (Wed)   3 PM         Away      Wesleyan University               Middletown, CT                                      W 5-2 
+Apr 26 (Wed)   5 PM         Away      Wesleyan University               Middletown, CT                                      W 6-5 
+May 6 (Sat)    12 PM        Away      Colby College                     Waterville, ME                                      W 1-0 
+May 6 (Sat)    2 PM         Away      Colby College                     Waterville, ME                                      L 0-8 
+May 12 (Fri)   5 PM         Neutral   Bates College                     Medford, MA                                         L 0-1

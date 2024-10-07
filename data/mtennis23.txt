@@ -1,0 +1,32 @@
+Amherst College
+2023-24 Men's Tennis Schedule
+
+Overall    2-0  1.000
+Conference 1-0  1.000
+Streak     W2
+Home       2-0
+Away       0-0
+Neutral    0-0
+
+Date           Time         At        Opponent                                 Location                              Tournament   Result
+Sep 22 (Fri)   9 AM         Neutral   MIT Invitational                         Cambridge, MA                                            
+Sep 29 (Fri)   9 AM         Neutral   ITA New England Regional Championships   Brunswick, ME                                            
+Oct 14 (Sat)   9 AM         Home      Connecticut College                      Amherst, MA (Amherst Tennis Courts)                W 9-0 
+Oct 14 (Sat)   2:30 PM      Home      Nichols College                          Amherst, MA (Amherst Tennis Courts)                W 7-0 
+Mar 2 (Sat)    1 PM         Away      Skidmore College                         Saratoga Springs, NY                                     
+Mar 3 (Sun)    2 PM         Home      United States Coast Guard Academy        Amherst, MA (Amherst Tennis Courts)                      
+Mar 9 (Sat)    2 PM         Home      Wesleyan University                      Amherst, MA (Amherst Tennis Courts)                      
+Mar 17 (Sun)   1 PM (ET)    Away      Schreiner University                     Kerrville, TX                                            
+Mar 18 (Mon)   1 PM (ET)    Away      Concordia University Texas               Austin, TX                                               
+Mar 20 (Wed)   TBD          Neutral   Linfield University                      Georgetown, TX                                           
+Mar 20 (Wed)   3 PM (ET)    Away      Southwestern University                  Georgetown, TX                                           
+Mar 21 (Thu)   2 PM (ET)    Neutral   Emory University                         San Antonio, TX                                          
+Mar 23 (Sat)   12 PM (ET)   Away      Trinity University (Texas)               San Antonio, TX                                          
+Mar 30 (Sat)   10 AM        Home      Hamilton College                         Amherst, MA (Amherst Tennis Courts)                      
+Apr 6 (Sat)    12 PM        Away      Colby College                            Waterville, ME                                           
+Apr 7 (Sun)    12 PM        Away      Bowdoin College                          Brunswick, ME                                            
+Apr 11 (Thu)   3:30 PM      Home      Trinity College (Conn.)                  Amherst, MA (Amherst Tennis Courts)                      
+Apr 20 (Sat)   2 PM         Home      Williams College                         Amherst, MA (Amherst Tennis Courts)                      
+Apr 21 (Sun)   2 PM         Home      Middlebury College                       Amherst, MA (Amherst Tennis Courts)                      
+Apr 27 (Sat)   10 AM        Away      Bates College                            Lewiston, ME                                             
+Apr 28 (Sun)   10 AM        Away      Tufts University                         Medford, MA

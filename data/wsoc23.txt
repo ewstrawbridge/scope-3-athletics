@@ -1,0 +1,32 @@
+Amherst College
+2023 Women's Soccer Schedule
+
+Overall    18-2-1  .881
+Conference 8-1-1  .850
+Streak     L1
+Home       11-1
+Away       5-1-1
+Neutral    2-0
+
+Date           Time       At        Opponent                             Location                        Tournament   Result
+Sep 6 (Wed)    8 PM       Away      Lesley University                    Lexington, MA                                W 6-0 
+Sep 9 (Sat)    2 PM       Away      Middlebury College                   Middlebury, VT                               T 2-2 
+Sep 10 (Sun)   2 PM       Home      Smith College                        Amherst, MA (Gooding Field)                  W 1-0 
+Sep 14 (Thu)   6 PM       Home      Lasell University                    Amherst, MA (Gooding Field)                  W 9-0 
+Sep 17 (Sun)   12 PM      Away      Tufts University                     Medford, MA                                  W 4-1 
+Sep 19 (Tue)   7 PM       Away      Connecticut College                  New London, CT                               W 4-3 
+Sep 23 (Sat)   12 PM      Home      Bates College                        Amherst, MA (Hitchcock Field)                W 1-0 
+Sep 24 (Sun)   1 PM       Home      Colby College                        Amherst, MA (Hitchcock Field)                W 3-0 
+Sep 30 (Sat)   12 PM      Home      Williams College                     Amherst, MA (Gooding Field)                  L 0-1 
+Oct 7 (Sat)    12 PM      Away      Wesleyan University                  Middletown, CT                               W 1-0 
+Oct 8 (Sun)    2:30 PM    Away      Bowdoin College                      Brunswick, ME                                W 1-0 
+Oct 14 (Sat)   12 PM      Home      Rhode Island College                 Amherst, MA (Hitchcock Field)                W 8-0 
+Oct 15 (Sun)   2 PM       Home      Vermont State University Castleton   Amherst, MA (Hitchcock Field)                W 8-0 
+Oct 21 (Sat)   12 PM      Home      Hamilton College                     Amherst, MA (Gooding Field)                  W 3-0 
+Oct 24 (Tue)   6 PM       Home      Trinity College                      Amherst, MA (Gooding Field)                  W 1-0 
+Oct 28 (Sat)   12:30 PM   Home      Tufts University                     Amherst, MA (Hitchcock Field)                W 3-1 
+Nov 4 (Sat)    11 AM      Home      Wesleyan University                  Amherst, MA (Hitchcock Field)                W 1-0 
+Nov 5 (Sun)    12 PM      Home      Bowdoin College                      Amherst, MA (Hitchcock Field)                W 2-1 
+Nov 11 (Sat)   10:30 AM   Neutral   Maine Maritime Academy               Babson Park, MA                              W 5-0 
+Nov 12 (Sun)   12:30 PM   Neutral   Rochester Institute of Technology    Babson Park, MA                              W 3-1 
+Nov 18 (Sat)   11 AM      Away      Messiah University                   Grantham, PA                                 L 1-3

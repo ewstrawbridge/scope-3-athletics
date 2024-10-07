@@ -1,0 +1,45 @@
+Amherst College
+2024 Baseball Schedule
+
+Overall    0-0  .000
+Conference 0-0  .000
+Streak     
+Home       0-0
+Away       0-0
+Neutral    0-0
+
+Date           Time       At        Opponent                                Location                                                 Tournament   Result
+Mar 9 (Sat)    11 AM      Away      Ramapo College                          Mahwah, NJ                                                                  
+Mar 9 (Sat)    1 PM       Away      Ramapo College                          Mahwah, NJ                                                                  
+Mar 10 (Sun)   1 PM       Away      Brandeis University                     Waltham, MA                                                                 
+Mar 12 (Tue)   3:30 PM    Away      Worcester Polytechnic Institute         Northborough, MA                                                            
+Mar 17 (Sun)   4 PM       Neutral   SUNY Cobleskill                         Auburndale, FL (Lake Myrtle Sports Complex - Field #8)                      
+Mar 18 (Mon)   2 PM       Neutral   University of Wisconsin-Stevens Point   Auburndale, FL (Lake Myrtle Sports Complex - Field #5)                      
+Mar 19 (Tue)   3 PM       Neutral   St. Lawrence University                 Auburndale, FL (Lake Myrtle Sports Complex - Field #8)                      
+Mar 19 (Tue)   5 PM       Neutral   St. Lawrence University                 Auburndale, FL (Lake Myrtle Sports Complex - Field #8)                      
+Mar 21 (Thu)   3 PM       Neutral   Framingham State University             Auburndale, FL (Lake Myrtle Sports Complex - Field #6)                      
+Mar 22 (Fri)   10:30 AM   Neutral   Worcester State University              Auburndale, FL (Lake Myrtle Sports Complex - Field #8)                      
+Mar 22 (Fri)   12:30 PM   Neutral   Worcester State University              Auburndale, FL (Lake Myrtle Sports Complex - Field #8)                      
+Mar 27 (Wed)   3:30 PM    Home      Western New England University          Amherst, MA (Memorial Field)                                                
+Mar 29 (Fri)   4 PM       Home      Wesleyan University                     Amherst, MA (Memorial Field)                                                
+Mar 30 (Sat)   1 PM       Away      Wesleyan University                     Middletown, CT                                                              
+Mar 30 (Sat)   3 PM       Away      Wesleyan University                     Middletown, CT                                                              
+Apr 3 (Wed)    4 PM       Home      Westfield State University              Amherst, MA (Memorial Field)                                                
+Apr 5 (Fri)    4 PM       Home      Hamilton College                        Amherst, MA (Memorial Field)                                                
+Apr 6 (Sat)    1 PM       Home      Hamilton College                        Amherst, MA (Memorial Field)                                                
+Apr 6 (Sat)    3 PM       Home      Hamilton College                        Amherst, MA (Memorial Field)                                                
+Apr 10 (Wed)   5 PM       Away      Clark University                        Worcester, MA                                                               
+Apr 11 (Thu)   4 PM       Home      Wheaton College (Mass.)                 Amherst, MA (Memorial Field)                                                
+Apr 13 (Sat)   12 PM      Home      University of Rochester                 Amherst, MA (Memorial Field)                                                
+Apr 14 (Sun)   12 PM      Home      Trinity College (Conn.)                 Amherst, MA (Memorial Field)                                                
+Apr 14 (Sun)   3 PM       Home      Trinity College (Conn.)                 Amherst, MA (Memorial Field)                                                
+Apr 15 (Mon)   3:30 PM    Home      Springfield College                     Amherst, MA (Memorial Field)                                                
+Apr 17 (Wed)   3:30 PM    Home      Massachusetts Institute of Technology   Amherst, MA (Memorial Field)                                                
+Apr 19 (Fri)   4 PM       Away      Middlebury College                      Middlebury, VT                                                              
+Apr 20 (Sat)   1 PM       Away      Middlebury College                      Middlebury, VT                                                              
+Apr 20 (Sat)   3 PM       Away      Middlebury College                      Middlebury, VT                                                              
+Apr 24 (Wed)   TBD        Away      Elms College                            Chicopee, MA                                                                
+Apr 26 (Fri)   4 PM       Away      Williams College                        Williamstown, MA                                                            
+Apr 27 (Sat)   1 PM       Home      Williams College                        Amherst, MA (Memorial Field)                                                
+Apr 27 (Sat)   3 PM       Home      Williams College                        Amherst, MA (Memorial Field)                                                
+May 1 (Wed)    7 PM       Away      UMass Boston                            Boston, MA

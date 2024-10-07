@@ -1,0 +1,33 @@
+Amherst College
+2022-23 Women's Squash Schedule
+
+Overall    14-6  .700
+Conference 0-0  .000
+Streak     W2
+Home       6-2
+Away       4-2
+Neutral    4-2
+
+Date           Time       At        Opponent                        Location                                               Tournament   Result  
+Nov 19 (Sat)   12 PM      Home      William Smith College           Amherst, MA (Davenport Squash Courts)                               L 4-5   
+Dec 3 (Sat)    2 PM       Away      Hamilton College                Clinton, NY (Little Squash Center)                                  W 7-2   
+Dec 6 (Tue)    6 PM       Away      Trinity College                 Hartford, CT (George A. Kellner Squash Courts)                      L 0-9   
+Jan 6 (Fri)    6 PM       Away      Dickinson College               Carlisle, PA (Kline & Specter Squash Center)                        W 9-0   
+Jan 7 (Sat)    12 PM      Away      Franklin and Marshall College   Lancaster, PA (Mayser Squash Courts)                                W 7-2   
+Jan 8 (Sun)    11 AM      Neutral   Georgetown University           Annapolis, MD (Prager Family Squash Facility)                       W 7-2   
+Jan 14 (Sat)   1 PM       Home      Tufts University                Amherst, MA (Davenport Squash Courts)                               L 2-7   
+Jan 20 (Fri)   4 PM       Home      Bowdoin College                 Amherst, MA (Davenport Squash Courts)                               W 8-1   
+Jan 21 (Sat)   2 PM       Home      Colby College                   Amherst, MA (Davenport Squash Courts)                               W 8-1   
+Jan 22 (Sun)   1 PM       Home      Bates College                   Amherst, MA (Davenport Squash Courts)                               W 9-0   
+Jan 24 (Tue)   4 PM       Away      Middlebury College              Middlebury, VT (Bostwick Family Squash Center)                      W 5-4   
+Jan 27 (Fri)   5 PM       Away      Williams College                Williamstown, MA (Simon Squash Center)                              L 4-5   
+Jan 29 (Sun)   12 PM      Home      Wesleyan University             Amherst, MA (Davenport Squash Courts)                               W 9-0   
+Feb 2 (Thu)    6 PM       Away      Mount Holyoke College           South Hadley, MA (Mount Holyoke College Field House)                Canceled
+Feb 4 (Sat)    11 AM      Home      Connecticut College             Amherst, MA (Davenport Squash Courts)                               W 9-0   
+Feb 5 (Sun)    12 PM      Home      Brown University                Amherst, MA (Davenport Squash Courts)                               W 8-1   
+Feb 11 (Sat)   10 AM      Neutral   Middlebury College              Williamstown, MA (Simon Squash Center)                              W 6-3   
+Feb 12 (Sun)   9 AM       Neutral   Trinity College                 Williamstown, MA (Simon Squash Center)                              L 0-9   
+Feb 17 (Fri)   12:30 PM   Neutral   Dartmouth College               Philadelphia, PA (Penn Squash Center)                               L 3-6   
+Feb 18 (Sat)   11:30 AM   Neutral   William Smith College           Philadelphia, PA (Penn Squash Center)                               W 8-1   
+Feb 19 (Sun)   2:30 PM    Neutral   Williams College                Philadelphia, PA (Penn Squash Center)                               W 6-3   
+Mar 3 (Fri)    10:30 AM   Away      CSA Individual Championships    Philadelphia, PA (Specter US Squash Center)

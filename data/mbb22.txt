@@ -1,0 +1,35 @@
+Amherst College
+2022-23 Men's Basketball Schedule
+
+Overall    10-14  .417
+Conference 4-6  .400
+Streak     W1
+Home       5-4
+Away       5-9
+Neutral    0-1
+
+Date           Time         At        Opponent                               Location                         Tournament   Result 
+Nov 12 (Sat)   2 PM         Away      Albertus Magnus College                New Haven, CT                                 W 67-64
+Nov 19 (Sat)   3 PM         Neutral   University of Lynchburg                Arlington, VA                                 L 57-62
+Nov 20 (Sun)   1 PM         Away      Marymount University                   Arlington, VA                                 W 65-64
+Nov 23 (Wed)   1 PM         Away      Babson College                         Babson Park, MA                               L 54-66
+Nov 27 (Sun)   3 PM         Away      Yeshiva University                     New York, NY                                  L 57-61
+Nov 28 (Mon)   7 PM         Home      Northern Vermont University-Johnson    Amherst, MA (LeFrak Gymnasium)                W 94-64
+Dec 1 (Thu)    7 PM         Away      Colby-Sawyer College                   New London, NH                                L 69-81
+Dec 6 (Tue)    7 PM         Home      Springfield College                    Amherst, MA (LeFrak Gymnasium)                L 70-73
+Dec 8 (Thu)    7 PM         Home      Eastern Nazarene College               Amherst, MA (LeFrak Gymnasium)                W 71-61
+Dec 28 (Wed)   4 PM (EST)   Away      University of California, Santa Cruz   Santa Cruz, CA                                L 56-58
+Jan 2 (Mon)    7 PM         Away      Wesleyan University                    Middletown, CT                                L 54-57
+Jan 6 (Fri)    7 PM         Home      Williams College                       Amherst, MA (LeFrak Gymnasium)                W 53-51
+Jan 7 (Sat)    3 PM         Home      Middlebury College                     Amherst, MA (LeFrak Gymnasium)                L 46-53
+Jan 13 (Fri)   7 PM         Away      Tufts University                       Medford, MA                                   L 43-61
+Jan 14 (Sat)   3 PM         Away      Bates College                          Lewiston, ME                                  W 75-62
+Jan 18 (Wed)   7 PM         Away      Williams College                       Williamstown, MA                              L 65-66
+Jan 21 (Sat)   2 PM         Away      Hamilton College                       Clinton, NY                                   L 49-78
+Jan 23 (Mon)   7 PM         Away      Westfield State University             Westfield, MA                                 W 72-57
+Jan 27 (Fri)   7 PM         Home      Wesleyan University                    Amherst, MA (LeFrak Gymnasium)                W 71-67
+Jan 28 (Sat)   3 PM         Home      Trinity College (Conn.)                Amherst, MA (LeFrak Gymnasium)                L 50-71
+Feb 3 (Fri)    7 PM         Home      Connecticut College                    Amherst, MA (LeFrak Gymnasium)                L 57-65
+Feb 6 (Mon)    7 PM         Home      Pratt Institute                        Amherst, MA (LeFrak Gymnasium)                W 87-44
+Feb 10 (Fri)   7 PM         Away      Colby College                          Waterville, ME                                L 56-71
+Feb 11 (Sat)   3 PM         Away      Bowdoin College                        Brunswick, ME                                 W 56-39

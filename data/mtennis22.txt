@@ -1,0 +1,31 @@
+Amherst College
+2022-23 Men's Tennis Schedule
+
+Overall    10-7  .588
+Conference 5-5  .500
+Streak     L3
+Home       3-3
+Away       6-3
+Neutral    1-1
+
+Date           Time         At        Opponent                           Location                             Tournament   Result
+Sep 30 (Fri)   9 AM         Neutral   ITA Regionals                      Brunswick, ME                                           
+Oct 7 (Fri)    TBD          Away      MIT Classic                        Cambridge, MA                                           
+Oct 15 (Sat)   TBD          Neutral   Wesleyan University Invitational   Middletown, CT                                          
+Mar 4 (Sat)    11 AM        Home      Bowdoin College                    Ludlow, MA (Ludlow Tennis Club)                   L 3-6 
+Mar 5 (Sun)    11 AM        Home      Colby College                      Ludlow, MA (Ludlow Tennis Club)                   L 3-6 
+Mar 14 (Tue)   12 PM (ET)   Neutral   Rhodes College                     Claremont, CA / CMS                               W 5-0 
+Mar 15 (Wed)   9 PM (ET)    Neutral   Sewanee                            Malibu, CA / Pepperdine University                L 2-7 
+Mar 16 (Thu)   4 PM (ET)    Away      Chapman University                 Orange, CA                                        W 8-1 
+Mar 18 (Sat)   1 PM (ET)    Away      University of Redlands             Redlands, CA                                      W 8-1 
+Mar 25 (Sat)   3 PM         Home      Nichols College                    Amherst, MA (Bay Road Tennis Club)                W 9-0 
+Mar 26 (Sun)   2 PM         Away      Connecticut College                New London, CT                                    W 8-1 
+Apr 1 (Sat)    12:30 PM     Home      Tufts University                   Ludlow, MA (Ludlow Tennis Club)                   L 3-6 
+Apr 2 (Sun)    10 AM        Home      Bates College                      Ludlow, MA (Ludlow Tennis Club)                   W 9-0 
+Apr 8 (Sat)    2 PM         Away      Hamilton College                   Clinton, NY                                       W 7-2 
+Apr 11 (Tue)   4 PM         Away      Trinity College (Conn.)            Hartford, CT                                      W 8-1 
+Apr 15 (Sat)   1 PM         Home      Skidmore College                   Amherst, MA                                       W 7-2 
+Apr 16 (Sun)   10 AM        Away      Wesleyan University                Middletown, CT                                    W 7-2 
+Apr 22 (Sat)   2 PM         Away      Middlebury College                 Middlebury, VT                                    L 3-6 
+Apr 23 (Sun)   2 PM         Away      Williams College                   Williamstown, MA                                  L 1-8 
+Apr 28 (Fri)   1 PM         Away      Williams College                   Williamstown, MA                                  L 0-5

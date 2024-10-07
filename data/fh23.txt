@@ -1,0 +1,28 @@
+Amherst College
+2023 Field Hockey Schedule
+
+Overall    10-7  .588
+Conference 5-5  .500
+Streak     L1
+Home       4-3
+Away       6-4
+Neutral    0-0
+
+Date           Time      At     Opponent                                Location                   Tournament   Result
+Sep 5 (Tue)    6:30 PM   Home   Smith College                           Amherst, MA (Hill Field)                W 6-1 
+Sep 9 (Sat)    2 PM      Away   Middlebury College                      Middlebury, VT                          L 0-3 
+Sep 12 (Tue)   6:30 PM   Away   Keene State College                     Keene, NH                               W 9-3 
+Sep 15 (Fri)   7 PM      Away   Tufts University                        Medford, MA                             L 1-2 
+Sep 20 (Wed)   6:30 PM   Home   Massachusetts Institute of Technology   Amherst, MA (Hill Field)                L 1-2 
+Sep 23 (Sat)   11 AM     Home   Bates College                           Amherst, MA (Hill Field)                W 4-1 
+Sep 24 (Sun)   12 PM     Home   Colby College                           Amherst, MA (Hill Field)                W 2-1 
+Sep 27 (Wed)   7 PM      Away   Connecticut College                     New London, CT                          W 3-0 
+Sep 30 (Sat)   11 AM     Home   Williams College                        Amherst, MA (Hill Field)                L 0-3 
+Oct 7 (Sat)    11 AM     Away   Wesleyan University                     Middletown, CT                          W 3-1 
+Oct 8 (Sun)    12 PM     Away   Bowdoin College                         Brunswick, ME                           L 2-3 
+Oct 12 (Thu)   6:30 PM   Away   Springfield College                     Springfield, MA                         W 4-0 
+Oct 19 (Thu)   6:30 PM   Away   Worcester Polytechnic Institute         Worcester, MA                           W 4-1 
+Oct 21 (Sat)   11 AM     Home   Hamilton College                        Amherst, MA (Hill Field)                W 4-1 
+Oct 24 (Tue)   6 PM      Home   Trinity College                         Amherst, MA (Hill Field)                L 1-2 
+Oct 28 (Sat)   12 PM     Away   Tufts University                        Medford, MA                             W 3-2 
+Nov 4 (Sat)    11 AM     Away   Middlebury College                      Middlebury, VT                          L 1-4

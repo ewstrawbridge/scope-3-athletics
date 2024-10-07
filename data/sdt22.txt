@@ -1,0 +1,26 @@
+Amherst College
+2022-23 Men's Swimming and Diving Schedule
+
+Overall    5-3  .625
+Conference 0-0  .000
+Streak     W1
+Home       2-1
+Away       3-2
+Neutral    0-0
+
+Date           Time    At     Opponent                                Location                                              Tournament   Result       
+Nov 19 (Sat)   1 PM    Away   Colby College                           Waterville, ME (Colby Swimming Pool)                               W 166-107    
+Nov 21 (Mon)   5 PM    Away   Wesleyan University                     Middletown, CT (Wesleyan Natatorium)                               W 175.5-103.5
+Dec 3 (Sat)    1 PM    Home   Middlebury College                      Amherst, MA (Pratt Pool)                                           W 192-99     
+Dec 31 (Sat)   12 PM   Away   Union College                           Schenectady, NY (Alumni Gym Pool)                                  W 160-98     
+Jan 7 (Sat)    4 PM    Home   Williams College                        Amherst, MA (Pratt Pool)                                           L 121-167    
+Jan 21 (Sat)   1 PM    Away   Connecticut College                     New London, CT (Connecticut College Fitness Center)                L 137-143    
+Jan 28 (Sat)   1 PM    Away   Massachusetts Institute of Technology   Cambridge, MA (Alumni Pool)                                        L 110.5-168.5
+Jan 29 (Sun)   1 PM    Home   Springfield College                     Amherst, MA (Pratt Pool)                                           W 172-110    
+Feb 16 (Thu)   7 PM    Away   NESCAC Championships                    Middletown, CT (Wesleyan Natatorium)                                            
+Feb 17 (Fri)   10 AM   Away   NESCAC Championships                    Middletown, CT (Wesleyan Natatorium)                                            
+Feb 18 (Sat)   10 AM   Away   NESCAC Championships                    Middletown, CT (Wesleyan Natatorium)                                            
+Feb 19 (Sun)   10 AM   Away   NESCAC Championships                    Middletown, CT (Wesleyan Natatorium)                                            
+Mar 15 (Wed)   10 AM   Away   NCAA Championships                      Greensboro, NC (Greensboro Aquatic Center)                                      
+Mar 16 (Thu)   10 AM   Away   NCAA Championships                      Greensboro, NC (Greensboro Aquatic Center)                                      
+Mar 18 (Sat)   10 AM   Away   NCAA Championships                      Greensboro, NC (Greensboro Aquatic Center)

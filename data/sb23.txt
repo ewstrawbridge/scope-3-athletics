@@ -1,0 +1,47 @@
+Amherst College
+2024 Softball Schedule
+
+Overall    0-0  .000
+Conference 0-0  .000
+Streak     
+Home       0-0
+Away       0-0
+Neutral    0-0
+
+Date           Time       At        Opponent                                Location                                           Tournament   Result
+Mar 17 (Sun)   4 PM       Neutral   Endicott College                        Clermont, FL (Legends Way Ballfields - Field #1)                      
+Mar 17 (Sun)   6:15 PM    Neutral   Ramapo College                          Clermont, FL (Legends Way Ballfields - Field #2)                      
+Mar 18 (Mon)   12:30 PM   Neutral   University of Wisconsin-Eau Claire      Clermont, FL (Legends Way Ballfields - Field #4)                      
+Mar 18 (Mon)   2:45 PM    Neutral   Buffalo State                           Clermont, FL (Legends Way Ballfields - Field #2)                      
+Mar 19 (Tue)   9 AM       Neutral   University of Wisconsin-Whitewater      Clermont, FL (Legends Way Ballfields - Field #5)                      
+Mar 19 (Tue)   11:15 AM   Neutral   University of Wisconsin-Stevens Point   Clermont, FL (Legends Way Ballfields - Field #5)                      
+Mar 21 (Thu)   9 AM       Neutral   Western New England University          Clermont, FL (Hancock Park - Field #2)                                
+Mar 21 (Thu)   11:15 AM   Neutral   Union College                           Clermont, FL (Hancock Park - Field #2)                                
+Mar 22 (Fri)   1:45 PM    Neutral   Millikin University                     Clermont, FL (Legends Way Ballfields - Field #3)                      
+Mar 22 (Fri)   4 PM       Neutral   Westminster College (MO)                Clermont, FL (Legends Way Ballfields - Field #1)                      
+Mar 23 (Sat)   9:15 AM    Neutral   University of Wisconsin-Oshkosh         Clermont, FL (Legends Way Ballfields - Field #3)                      
+Mar 23 (Sat)   11:30 AM   Neutral   Elmhurst University                     Clermont, FL (Legends Way Ballfields - Field #3)                      
+Mar 29 (Fri)   3 PM       Home      Wesleyan University                     Amherst, MA (Amherst Softball Field)                                  
+Mar 29 (Fri)   5 PM       Home      Wesleyan University                     Amherst, MA (Amherst Softball Field)                                  
+Apr 6 (Sat)    11 AM      Home      Tufts University                        Amherst, MA (Amherst Softball Field)                                  
+Apr 6 (Sat)    1 PM       Home      Tufts University                        Amherst, MA (Amherst Softball Field)                                  
+Apr 7 (Sun)    12 PM      Away      Trinity College (Conn.)                 Hartford, CT                                                          
+Apr 7 (Sun)    2 PM       Away      Trinity College (Conn.)                 Hartford, CT                                                          
+Apr 10 (Wed)   3 PM       Home      Smith College                           Amherst, MA (Amherst Softball Field)                                  
+Apr 10 (Wed)   5 PM       Home      Smith College                           Amherst, MA (Amherst Softball Field)                                  
+Apr 13 (Sat)   12 PM      Away      Bowdoin College                         Brunswick, ME                                                         
+Apr 13 (Sat)   2 PM       Away      Bowdoin College                         Brunswick, ME                                                         
+Apr 14 (Sun)   12 PM      Away      Bates College                           Lewiston, ME                                                          
+Apr 14 (Sun)   2 PM       Away      Bates College                           Lewiston, ME                                                          
+Apr 17 (Wed)   3 PM       Away      Springfield College                     Springfield, MA                                                       
+Apr 17 (Wed)   5 PM       Away      Springfield College                     Springfield, MA                                                       
+Apr 20 (Sat)   12 PM      Away      Hamilton College                        Clinton, NY                                                           
+Apr 20 (Sat)   2 PM       Away      Hamilton College                        Clinton, NY                                                           
+Apr 21 (Sun)   12 PM      Home      Williams College                        Amherst, MA (Amherst Softball Field)                                  
+Apr 21 (Sun)   2 PM       Home      Williams College                        Amherst, MA (Amherst Softball Field)                                  
+Apr 24 (Wed)   3 PM       Home      Worcester Polytechnic Institute         Amherst, MA (Amherst Softball Field)                                  
+Apr 24 (Wed)   5 PM       Home      Worcester Polytechnic Institute         Amherst, MA (Amherst Softball Field)                                  
+Apr 27 (Sat)   11:30 AM   Home      Middlebury College                      Amherst, MA (Amherst Softball Field)                                  
+Apr 27 (Sat)   1:30 PM    Home      Middlebury College                      Amherst, MA (Amherst Softball Field)                                  
+May 4 (Sat)    12 PM      Home      Colby College                           Amherst, MA (Amherst Softball Field)                                  
+May 4 (Sat)    2 PM       Home      Colby College                           Amherst, MA (Amherst Softball Field)

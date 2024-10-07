@@ -1,0 +1,27 @@
+Amherst College
+2022 Field Hockey Schedule
+
+Overall    12-4  .750
+Conference 7-3  .700
+Streak     L2
+Home       5-3
+Away       7-1
+Neutral    0-0
+
+Date           Time      At     Opponent                                Location                                                  Tournament   Result
+Sep 8 (Thu)    7 PM      Away   Mount Holyoke College                   South Hadley, MA (Mount Holyoke Turf and Track Complex)                W 10-0
+Sep 10 (Sat)   11 AM     Home   Middlebury College                      Amherst, MA (Hill Field)                                               L 1-3 
+Sep 14 (Wed)   5:30 PM   Home   Keene State College                     Amherst, MA (Hill Field)                                               W 6-0 
+Sep 17 (Sat)   12 PM     Home   Tufts University                        Amherst, MA (Hill Field)                                               L 1-2 
+Sep 21 (Wed)   6:30 PM   Away   Massachusetts Institute of Technology   Cambridge, MA (Jack Barry Field)                                       W 3-0 
+Sep 24 (Sat)   11 AM     Away   Bates College                           Lewiston, ME (Campus Avenue Field)                                     W 5-0 
+Sep 25 (Sun)   12 PM     Away   Colby College                           Waterville, ME (Bill Alfond Field)                                     W 6-1 
+Oct 1 (Sat)    11 AM     Away   Williams College                        Williamstown, MA (Williamson Field)                                    W 3-1 
+Oct 4 (Tue)    6 PM      Home   Connecticut College                     Amherst, MA (Hill Field)                                               W 3-0 
+Oct 8 (Sat)    11 AM     Home   Wesleyan University                     Amherst, MA (Hill Field)                                               W 3-1 
+Oct 9 (Sun)    12 PM     Home   Bowdoin College                         Amherst, MA (Hill Field)                                               W 3-1 
+Oct 13 (Thu)   6:30 PM   Home   Springfield College                     Amherst, MA (Hill Field)                                               W 8-0 
+Oct 19 (Wed)   6:30 PM   Away   Smith College                           Northampton, MA (Smith College Turf Field)                             W 4-0 
+Oct 22 (Sat)   12 PM     Away   Hamilton College                        Clinton, NY (Goodfriend Field)                                         W 3-2 
+Oct 25 (Tue)   6 PM      Away   Trinity College (Conn.)                 Hartford, CT (Robin L. Sheppard Field)                                 L 1-2 
+Oct 29 (Sat)   12 PM     Home   Williams College                        Amherst, MA (Hill Field)                                               L 1-2
