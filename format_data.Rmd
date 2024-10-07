@@ -22,8 +22,8 @@ add tables at the end
 
 ```{r collect files}
 # When this project was done, I did 22 (2022-2023) school year and 23 (2023-2024) school year. 
-files_22 <- list.files(pattern = "22.txt", recursive = TRUE)
-files_23 <- list.files(pattern = "23.txt", recursive = TRUE)
+files_1 <- list.files(pattern = "1.txt", recursive = TRUE)
+files_2 <- list.files(pattern = "2.txt", recursive = TRUE)
 # This travel mileage document was just created in excel and saved as a csv
 # For a different school it's going to be totally different
 travel_distance <- read.csv("data/travel_mileage.csv", header = TRUE)
@@ -156,34 +156,34 @@ data_framer <- function(file) {
 
 ```{r get all data together}
 # for each year section
-prep_22 <- sapply(files_22, data_framer)
-prep_23 <- sapply(files_23, data_framer)
+prep_1 <- sapply(files_1, data_framer)
+prep_2 <- sapply(files_2, data_framer)
 
 # first we set up the data frame
 # getting the names for the columns
-colnames <- rownames(prep_22)
+colnames <- rownames(prep_1)
 
 # prepping the empty frame, and making it a global variable
-emissions_22 <- data.frame(matrix(ncol = nrow(prep_22), nrow = 0))
-colnames(emissions_22) <- colnames
+emissions_1 <- data.frame(matrix(ncol = nrow(prep_1), nrow = 0))
+colnames(emissions_1) <- colnames
 
-emissions_23 <- data.frame(matrix(ncol = nrow(prep_23), nrow = 0))
-colnames(emissions_23) <- colnames
+emissions_2 <- data.frame(matrix(ncol = nrow(prep_2), nrow = 0))
+colnames(emissions_2) <- colnames
 
 # get each
-create_emissions_22 <- function(col){
+create_emissions_1 <- function(col){
   hold_data <- as.data.frame(col)
-  emissions_22 <- rbind(emissions_22,hold_data)
+  emissions_1 <- rbind(emissions_1,hold_data)
 }
 
-create_emissions_23 <- function(col){
+create_emissions_2 <- function(col){
   hold_data <- as.data.frame(col)
-  emissions_22 <- rbind(emissions_23,hold_data)
+  emissions_2 <- rbind(emissions_2,hold_data)
 }
 
 # THIS here is what will run and collect all the data, run ONCE
 # ERRORS DOWN HERE THO IT"S EMPTY :(
-emissions_22 <- apply(X = prep_22, MARGIN = 2, FUN = create_emissions_22)
+emissions_1 <- apply(X = prep_1, MARGIN = 2, FUN = create_emissions_1)
 
-emissions_23 <- apply(X = prep_23, MARGIN = 2, FUN = create_emissions_23)
+emissions_2 <- apply(X = prep_2, MARGIN = 2, FUN = create_emissions_2)
 ```
