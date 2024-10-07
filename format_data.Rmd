@@ -276,23 +276,40 @@ emissions_2[emissions_2$indicator == "mlax" & emissions_2$game_n == 8,
 # Women's Soccer
 emissions_2[emissions_2$indicator == "wsoc" & emissions_2$game_n == 19, 
             c(6, 7, 9, 10)] = c("Away", 38, "pete", 38*404*1*2/1000)
-
-#msoc_num
-msoc_num[17, c(5, 6, 8, 9)] = c("Away", 85, "pete", 85*404*1*2/1000)
-msoc_num[19, c(5, 6, 8, 9)] = c("Away", 57, "pete", 57*404*1*2/1000)
-msoc_num[23, c(5, 6, 8, 9)] = c("Away", 1314, "plane", 182*39)
-
-#wsq_num
-wsq_num[17, c(5, 6, 8, 9)] = c("Away", 260, "pete", 260*404*1*2/1000)
-
-#msq_num
-msq_num[16, c(5, 6, 8, 9)] = c("Away", 260, "pete", 260*404*1*2/1000)
-
-#sdt_num
-sdt_num[10, c(5, 6, 8, 9)] = c("Away", 85, "pete", 85*404*1*2/1000)
-sdt_num[15, c(5, 6, 8, 9)] = c("Away", 207, "pete", 207*404*1*2/1000)
-
-
+# Men's Soccer
+emissions_2[emissions_2$indicator == "msoc" & emissions_2$game_n == 17, 
+            c(6, 7, 9, 10)] = c("Away", 85, "pete", 85*404*1*2/1000) # Per person
+emissions_2[emissions_2$indicator == "msoc" & emissions_2$game_n == 19, 
+            c(6, 7, 9, 10)] = c("Away", 57, "pete", 57*404*1*2/1000)
+emissions_2[emissions_2$indicator == "msoc" & emissions_2$game_n == 23, 
+            c(6, 7, 9, 10)] = c("Away", 1314, "plane", 182*39)
+# Women's Squash
+emissions_2[emissions_2$indicator == "wsq" & emissions_2$game_n == 17, 
+            c(6, 7, 9, 10)] = c("Away", 260, "pete", 260*404*1*2/1000)
+# Men's Squash
+emissions_2[emissions_2$indicator == "msq" & emissions_2$game_n == 16, 
+            c(6, 7, 9, 10)] = c("Away", 260, "pete", 260*404*1*2/1000)
+# Swim & Dive
+emissions_2[emissions_2$indicator == "sdt" & emissions_2$game_n == 10, 
+            c(6, 7, 9, 10)] = c("Away", 85, "pete", 85*404*1*2/1000)
+emissions_2[emissions_2$indicator == "sdt" & emissions_2$game_n == 25, 
+            c(6, 7, 9, 10)] = c("Away", 207, "pete", 207*404*1*2/1000)
+# Men's Tennis
+emissions_2[emissions_2$indicator == "mtennis" & emissions_2$game_n == 1, 
+            c(6, 7, 9, 10)] = c("Away", 88.9, "van", 88.9*523*1*2/1000)
+emissions_2[emissions_2$indicator == "mtennis" & emissions_2$game_n == 2, 
+            c(6, 7, 9, 10)] = c("Away", 200, "van", 200*523*1*2/1000)
+emissions_2[emissions_2$indicator == "mtennis" & emissions_2$game_n == 8, 
+            c(6, 7, 9, 10)] = c("Away", 1955, "plane", 251*14)
+emissions_2[emissions_2$indicator == "mtennis" & emissions_2$game_n == 9, 
+            c(6, 7, 9, 10)] = c("Neutral", 0, "none", 0)
+emissions_2[emissions_2$indicator == "mtennis" & emissions_2$game_n == 11, 
+            c(6, 7, 9, 10)] = c("Neutral", 0, "none", 0)
+emissions_2[emissions_2$indicator == "mtennis" & emissions_2$game_n == 13, 
+            c(6, 7, 9, 10)] = c("Neutral", 0, "none", 0)
+# Women's Tennis
+# Track & Field
+#STILL NEED TO DO
 #mtennis_num
 mtennis_num[1, c(5, 6, 8, 9)] = c("Away", 88.9, "van", 88.9*523*1*2/1000)
 mtennis_num[2, c(5, 6, 8, 9)] = c("Away", 200, "van", 200*523*1*2/1000)
