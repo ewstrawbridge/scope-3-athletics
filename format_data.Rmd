@@ -460,3 +460,141 @@ emissions_1[emissions_1$indicator == "tf" & emissions_1$game_n == 26,
 emissions_1[emissions_1$indicator == "tf" & emissions_1$game_n == 29, 
             c(6, 7, 9, 10)] = c("Away", 823, "plane", 200*10)
 ```
+
+```{r total summary stats}
+emissions_1 <- emissions_1 %>%
+  mutate(yrcode = 1) %>%
+  mutate(co_2gas = as.numeric(co_2gas)) %>%
+  mutate(miles = as.numeric(miles))
+emissions_2 <- emissions_2 %>%
+  mutate(yrcode = 2) %>%
+  mutate(co_2gas = as.numeric(co_2gas)) %>%
+  mutate(miles = as.numeric(miles))
+datam <- rbind(emissions_1, emissions_2)
+sum1 <- sum(na.omit(emissions_1$co_2gas)) # 1st year total emissions
+sum2 <- sum(na.omit(emissions_2$co_2gas)) # 2nd year total emissions
+avg <- (sum1+sum2)/2 # two year average of athletic emissions
+
+sum1
+sum2
+avg
+```
+
+```{r team grouped summary stats}
+# total emissions by team
+emissions_1_grp <- emissions_1 %>%
+  group_by(indicator) %>% 
+  summarise(co_2gas = sum(na.omit(as.numeric(co_2gas))))
+emissions_1_grp
+
+emissions_2_grp <- emissions_2 %>%
+  group_by(indicator) %>% 
+  summarise(co_2gas = sum(na.omit(as.numeric(co_2gas))))
+emissions_2_grp
+
+# total emissions by team per transp type
+emissions_1_grp_t <- emissions_1 %>%
+  group_by(indicator,transp_type) %>% 
+  summarise(co_2gas = sum(na.omit(as.numeric(co_2gas))))
+emissions_1_grp_t
+
+emissions_2_grp_t <- emissions_2 %>%
+  group_by(indicator,transp_type) %>% 
+  summarise(co_2gas = sum(na.omit(as.numeric(co_2gas))))
+emissions_2_grp_t
+
+# two year average emissions by team
+datamgrp <- datam %>%
+  group_by(indicator) %>%
+  summarise(co_2avg = sum(na.omit(as.numeric(co_2gas)))/2)
+datamgrp
+# average average yearly emissions by team
+mean(datamgrp$co_2avg)
+
+# team avg per game, including away games
+datamgrp_gameav <- datam %>%
+  filter(h_a == "Away") %>%
+  group_by(indicator, h_a) %>%
+  summarise(co_2avg_game = sum(na.omit(as.numeric(co_2gas))/length(h_a)))
+datamgrp_gameav
+mean(datamgrp_gameav$co_2avg_game)
+
+# team avg per game, excluding away games
+datamgrp_gameav_noaway <- datam %>%
+  filter(h_a == "Away", transp_type != 'plane') %>%
+  group_by(indicator, h_a) %>%
+  summarise(co_2avg_game = sum(na.omit(as.numeric(co_2gas))/length(h_a)))
+datamgrp_gameav_noaway
+mean(datamgrp_gameav_noaway$co_2avg_game)
+
+# two year average emissions by team by transp type
+datamgrp2 <- datam %>%
+  group_by(indicator,transp_type) %>%
+  summarise(co_2avg = sum(na.omit(as.numeric(co_2gas)))/2)
+datamgrp2
+
+```
+
+```{r viz}
+datamgrp2no_none <- datamgrp2 %>%
+  filter(transp_type != "none")
+
+ggplot(datamgrp2no_none, aes(x=indicator, y=co_2avg, fill=indicator)) +
+  geom_col() +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) +
+  guides(fill = guide_legend(title = "Team Indicator")) +
+  xlab("Team Indicator") +
+  ylab("kg CO2 Emitted per Season (two year average)") +
+  ggtitle("kg CO2 Emitted per Season, by team, two year average")
+
+ggplot(datamgrp2no_none, aes(x=indicator, y=co_2avg, fill=transp_type)) +
+  geom_col() +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) +
+  guides(fill = guide_legend(title = "Transportation Type")) +
+  scale_fill_brewer(palette="Set2") +
+  xlab("Team Indicator") +
+  ylab("kg CO2 Emitted per Season (two year average)") +
+  ggtitle("kg CO2 Emitted per Season, by team, by transportation, two year average")
+
+ggplot(datamgrp_gameav, aes(x=indicator, y=co_2avg_game, fill=indicator)) +
+  geom_col() +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) +
+  guides(fill = guide_legend(title = "Team Indicator")) +
+  xlab("Team Indicator") +
+  ylab("Avaerage kg CO2 Emitted per game") +
+  ggtitle("Average kg CO2 Emitted per game")
+
+ggplot(datamgrp2no_none, aes(x="", y=co_2avg, fill=indicator)) +
+  geom_bar(stat="identity", width=1) +
+  coord_polar("y", start=0) +
+  guides(fill = guide_legend(title = "transportation type"))
+
+datamgrp2no_none <- datamgrp2 %>%
+  filter(transp_type != "none")
+
+ggplot(filter(datamgrp2no_none, transp_type!='plane'), aes(x=indicator, y=co_2avg, fill=indicator)) +
+  geom_col() +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) +
+  guides(fill = guide_legend(title = "Team Indicator")) +
+  xlab("Team Indicator") +
+  ylab("kg CO2 Emitted per Season (two year average), no plane data") +
+  ggtitle("kg CO2 Emitted per Season, by team, two year average")
+
+ggplot(filter(datamgrp2no_none, transp_type!='plane'), aes(x=indicator, y=co_2avg, fill=transp_type)) +
+  geom_col() +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) +
+  guides(fill = guide_legend(title = "Transportation Type")) +
+  scale_fill_brewer(palette="Set2") +
+  xlab("Team Indicator") +
+  ylab("kg CO2 Emitted per Season (two year average), no plane data") +
+  ggtitle("kg CO2 Emitted per Season, by team, by transportation, two year average")
+
+ggplot(datamgrp_gameav_noaway, aes(x=indicator, y=co_2avg_game, fill=indicator)) +
+  geom_col() +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) +
+  guides(fill = guide_legend(title = "Team Indicator")) +
+  xlab("Team Indicator") +
+  ylab("Avaerage kg CO2 Emitted per game, no plane data") +
+  ggtitle("Average kg CO2 Emitted per game")
+```
+
