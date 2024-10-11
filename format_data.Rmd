@@ -148,7 +148,8 @@ data_framer <- function(file) {
       team_name[1] == "vball" ~ 21+2,
       .default = 0)
    ) %>% 
-  mutate(co_2pcap = co_2gas/pop_trip)
+  mutate(co_2pcap = co_2gas/pop_trip,
+         miles = as.double(miles))
   return(dfr)
 }
 ```
@@ -308,35 +309,29 @@ emissions_2[emissions_2$indicator == "mtennis" & emissions_2$game_n == 11,
 emissions_2[emissions_2$indicator == "mtennis" & emissions_2$game_n == 13, 
             c(6, 7, 9, 10)] = c("Neutral", 0, "none", 0)
 # Women's Tennis
+emissions_2[emissions_2$indicator == "wtennis" & emissions_2$game_n == 1, 
+            c(6, 7, 9, 10)] = c("Away", 66.9, "van", 66.9*523*1*2/1000)
+emissions_2[emissions_2$indicator == "wtennis" & emissions_2$game_n == 2, 
+            c(6, 7, 9, 10)] = c("Away", 2888, "plane", 342*14)
+emissions_2[emissions_2$indicator == "wtennis" & emissions_2$game_n == 8, 
+            c(6, 7, 9, 10)] = c("Neutral", 0, "none", 0)
 # Track & Field
-#STILL NEED TO DO
-#mtennis_num
-mtennis_num[1, c(5, 6, 8, 9)] = c("Away", 88.9, "van", 88.9*523*1*2/1000)
-mtennis_num[2, c(5, 6, 8, 9)] = c("Away", 200, "van", 200*523*1*2/1000)
-mtennis_num[8, c(5, 6, 8, 9)] = c("Away", 1955, "plane", 251*14)
-mtennis_num[9, c(5, 6, 8, 9)] = c("Neutral", 0, "none", 0)
-mtennis_num[11, c(5, 6, 8, 9)] = c("Neutral", 0, "none", 0)
-mtennis_num[13, c(5, 6, 8, 9)] = c("Neutral", 0, "none", 0)
-
-#wtennis_num
-wtennis_num[4, c(5, 6, 8, 9)] = c("Away", 66.9, "van", 66.9*523*1*2/1000)
-wtennis_num[12, c(5, 6, 8, 9)] = c("Away", 2888, "plane", 342*14)
-wtennis_num[13, c(5, 6, 8, 9)] = c("Neutral", 0, "none", 0)
-
-
-#tf_num
-tf_num[1, c(5, 6, 8, 9)] = c("Away", 66.9, "pete", 66.9*404*2*2/1000)
-tf_num[11, c(5, 6, 8, 9)] = c("Away", 87.8, "pete", 7.8*404*2*2/1000)
-tf_num[12, c(5, 6, 8, 9)] = c("Away", 87.8, "pete", 87.8*404*2*2/1000)
-tf_num[20, c(5, 6, 8, 9)] = c("Away", 325.5, "pete", 325.5*404*2*2/1000)
-tf_num[23, c(5, 6, 8, 9)] = c("Away", 87.7, "pete", 87.7*404*2*2/1000)
-tf_num[24, c(5, 6, 8, 9)] = c("Away", 9.4, "pete", 9.4*404*2*2/1000)
-tf_num[25, c(5, 6, 8, 9)] = c("Neutral", 0, "none", 0)
-tf_num[27, c(5, 6, 8, 9)] = c("Away", 823, "plane", 200*10)
-
-
-#sb_num
-
+emissions_2[emissions_2$indicator == "tf" & emissions_2$game_n == 1, 
+            c(6, 7, 9, 10)] = c("Away", 66.9, "pete", 66.9*404*2*2/1000)
+emissions_2[emissions_2$indicator == "tf" & emissions_2$game_n == 11, 
+            c(6, 7, 9, 10)] = c("Away", 87.8, "pete", 7.8*404*2*2/1000)
+emissions_2[emissions_2$indicator == "tf" & emissions_2$game_n == 12, 
+            c(6, 7, 9, 10)] = c("Away", 87.8, "pete", 87.8*404*2*2/1000)
+emissions_2[emissions_2$indicator == "tf" & emissions_2$game_n == 20, 
+            c(6, 7, 9, 10)] = c("Away", 325.5, "pete", 325.5*404*2*2/1000)
+emissions_2[emissions_2$indicator == "tf" & emissions_2$game_n == 23, 
+            c(6, 7, 9, 10)] = c("Away", 87.7, "pete", 87.7*404*2*2/1000)
+emissions_2[emissions_2$indicator == "tf" & emissions_2$game_n == 24, 
+            c(6, 7, 9, 10)] = c("Away", 9.4, "pete", 9.4*404*2*2/1000)
+emissions_2[emissions_2$indicator == "tf" & emissions_2$game_n == 25, 
+            c(6, 7, 9, 10)] = c("neutral", 0, "none", 0)
+emissions_2[emissions_2$indicator == "tf" & emissions_2$game_n == 27, 
+            c(6, 7, 9, 10)] = c("Away", 823, "pete", 200*10)
 ```
 
 ```{r corrections by hand: year 1}
