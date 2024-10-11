@@ -186,11 +186,11 @@ create_emissions_2 <- function(col){
 # THIS here is what will run and collect all the data, run ONCE
 emissions_1 <- apply(X = prep_1, MARGIN = 2, FUN = create_emissions_1)
 emissions_1 <- bind_rows(emissions_1, .id = "column_label") %>%
-               mutate(source_file = column_label)
+               rename(source_file = column_label)
 
 emissions_2 <- apply(X = prep_2, MARGIN = 2, FUN = create_emissions_2)
 emissions_2 <- bind_rows(emissions_2, .id = "column_label") %>%
-               mutate(source_file = column_label)
+               rename(source_file = column_label)
 ```
 
 
@@ -199,53 +199,57 @@ emissions_2 <- bind_rows(emissions_2, .id = "column_label") %>%
 # For Amherst athletics, this is our plane travel because that is not the norm here
 # For your school that might look different -- refer back to the readme for more details
 
+# Spring break trips
+# We add these in manually, because there's only four
+# and they're the same for each year! which is easy
+source_file <- c("manual", "manual", "manual", "manual")
+game_n <- c(0,0,0,0)
+indicator <- c("baseball", "mbball", "sdt", "softball")
+loc <- c("Florida", "Morocco", "PR", "Florida")
+loc_2 <- c("Spring", "Quarter", "Spring", "Spring")
+h_a <- c("Away", "Away", "Away", "Away")
+miles <- c(1263, 3588, 1705, 1263)
+n_veh <- c(1,1,1,1)
+transp_type <- c("plane", "plane", "plane", "plane")
+co_2gas <- c(164*35, (571/4)*18, 245*18, 164*17)
+pop_trip <- c(35, 18, 18, 17)
+co_2pcap <- c(0,0,0,0)
+
+break_trips <- data.frame(source_file, game_n, indicator, loc, loc_2, h_a, miles, n_veh, transp_type, co_2gas, pop_trip, co_2pcap)
 
 emissions_2 <- emissions_2 %>%
-               # Spring break trips
-               # We add these in manually, because there's only four
-               add_row(game_n=0, indicator="baseball", loc="Florida", loc_2="Break", 
-                       h_a="Away", n_veh=1, miles=1263, transp_type="plane", 
-                       co_2gas=164*35, pop_trip=35, co_2pcap=0) %>%
-               add_row(game_n=0, indicator="mbball", loc="Morocco", loc_2="Quarter", 
-                       h_a="Away", n_veh=1, miles=3588, transp_type="plane", 
-                       co_2gas=(571/4)*18, pop_trip=18, co_2pcap=0) %>%
-               add_row(game_n=0, indicator="sdt", loc="PR", loc_2="Spring", 
-                       h_a="Away", n_veh=1, miles=1705, transp_type="plane", 
-                       co_2gas=245*18, pop_trip=18, co_2pcap=0) %>%
-               add_row(game_n=0, indicator="softball", loc="Florida", loc_2="Spring", 
-                       h_a="Away", n_veh=1, miles=1263, transp_type="plane", 
-                       co_2gas=164*17, pop_trip=17, co_2pcap=0) %>%
+               rbind(break_trips) %>%
                # Remove repeat days for multiple day competitions/tournaments
                # We're not dealing with a large amount of data so this is somewhat hard-coded
                # One could definitely optimize this section, but I did not
                # They're in separate filter functions just because it's easier for me to read
-               filter((indicator =! wgolf & game_n =! 2) | (indicator =! wgolf & game_n =! 4) |
-                      (indicator =! wgolf & game_n =! 6) | (indicator =! wgolf & game_n =! 8) |
-                      (indicator =! wgolf & game_n =! 11) | (indicator =! wgolf & game_n =! 12) |
-                      (indicator =! wgolf & game_n =! 14) | (indicator =! wgolf & game_n =! 16) |
-                      (indicator =! wgolf & game_n =! 18)) %>%
-               filter((indicator =! mgolf & game_n =! 2) | (indicator =! mgolf & game_n =! 4) |
-                      (indicator =! mgolf & game_n =! 6) | (indicator =! mgolf & game_n =! 8) |
-                      (indicator =! mgolf & game_n =! 10) | (indicator =! mgolf & game_n =! 11) |
-                      (indicator =! mgolf & game_n =! 13) | (indicator =! mgolf & game_n =! 15) |
-                      (indicator =! mgolf & game_n =! 18)) %>%
-               filter((indicator =! sdt & game_n =! 4) | (indicator =! sdt & game_n =! 11) |
-                      (indicator =! sdt & game_n =! 12) | (indicator =! sdt & game_n =! 13) |
-                      (indicator =! sdt & game_n =! 14) | (indicator =! sdt & game_n =! 16) |
-                      (indicator =! sdt & game_n =! 17) | (indicator =! sdt & game_n =! 18)) %>%
-               filter((indicator =! tf & game_n =! 3) | (indicator =! tf & game_n =! 4) |
-                      (indicator =! tf & game_n =! 6) | (indicator =! tf & game_n =! 8) |
-                      (indicator =! tf & game_n =! 13) | (indicator =! tf & game_n =! 17) |
-                      (indicator =! tf & game_n =! 21)) %>%
-              filter((indicator =! tf & game_n =! 2) | (indicator =! tf & game_n =! 3) |
-                      (indicator =! tf & game_n =! 6) | (indicator =! tf & game_n =! 7)) %>%
+               filter((indicator != "wgolf" & game_n != 2) | (indicator != "wgolf" & game_n != 4) |
+                      (indicator != "wgolf" & game_n != 6) | (indicator != "wgolf" & game_n != 8) |
+                      (indicator != "wgolf" & game_n != 11) | (indicator != "wgolf" & game_n != 12) |
+                      (indicator != "wgolf" & game_n != 14) | (indicator != "wgolf" & game_n != 16) |
+                      (indicator != "wgolf" & game_n != 18)) %>%
+               filter((indicator != "mgolf" & game_n != 2) | (indicator != "mgolf" & game_n != 4) |
+                      (indicator != "mgolf" & game_n != 6) | (indicator != "mgolf" & game_n != 8) |
+                      (indicator != "mgolf" & game_n != 10) | (indicator != "mgolf" & game_n != 11) |
+                      (indicator != "mgolf" & game_n != 13) | (indicator != "mgolf" & game_n != 15) |
+                      (indicator != "mgolf" & game_n != 18)) %>%
+               filter((indicator != "sdt" & game_n != 4) | (indicator != "sdt" & game_n != 11) |
+                      (indicator != "sdt" & game_n != 12) | (indicator != "sdt" & game_n != 13) |
+                      (indicator != "sdt" & game_n != 14) | (indicator != "sdt" & game_n != 16) |
+                      (indicator != "sdt" & game_n != 17) | (indicator != "sdt" & game_n != 18)) %>%
+               filter((indicator != "tf" & game_n != 3) | (indicator != "tf" & game_n != 4) |
+                      (indicator != "tf" & game_n != 6) | (indicator != "tf" & game_n != 8) |
+                      (indicator != "tf" & game_n != 13) | (indicator != "tf" & game_n != 17) |
+                      (indicator != "tf" & game_n != 21)) %>%
+              filter((indicator != "xc" & game_n != 2) | (indicator != "xc" & game_n != 3) |
+                      (indicator != "xc" & game_n != 6) | (indicator != "xc" & game_n != 7))
 
 # Hand-replacing stuff that got messed up/plane trips
 # Pretty inefficient but whatever
 
 # Women's Basketball
 emissions_2[emissions_2$indicator == "wbball" & emissions_2$game_n == 8, 
-            c(6, 7, 9, 10)] = c("Away", 1185, "plane", 211)
+            c(6, 7, 9, 10)] = c("Away", 1185, "plane", 211*14)
 # Cross Country
 emissions_2[emissions_2$indicator == "xc" & emissions_2$game_n == 2, 
             c(6, 7, 9, 10)] = c("Away", 66.9, "pete", 66.9*404*1*2/1000)
@@ -335,7 +339,124 @@ emissions_2[emissions_2$indicator == "tf" & emissions_2$game_n == 27,
 ```
 
 ```{r corrections by hand: year 1}
+emissions_1 <- emissions_1 %>%
+               rbind(break_trips) %>%
+               # Remove repeat days for multiple day competitions/tournaments
+               # We're not dealing with a large amount of data so this is somewhat hard-coded
+               # One could definitely optimize this section, but I did not
+               # They're in separate filter functions just because it's easier for me to read
+               filter((indicator != "wgolf" & game_n != 2) | (indicator != "wgolf" & game_n != 4) |
+                      (indicator != "wgolf" & game_n != 6) | (indicator != "wgolf" & game_n != 8) |
+                      (indicator != "wgolf" & game_n != 10) | (indicator != "wgolf" & game_n != 12) |
+                      (indicator != "wgolf" & game_n != 14) | (indicator != "wgolf" & game_n != 16) |
+                      (indicator != "wgolf" & game_n != 18) | (indicator != "wgolf" & game_n != 19) |
+                      (indicator != "wgolf" & game_n != 20)) %>%
+               filter((indicator != "mgolf" & game_n != 2) | (indicator != "mgolf" & game_n != 4) |
+                      (indicator != "mgolf" & game_n != 6) | (indicator != "mgolf" & game_n != 8) |
+                      (indicator != "mgolf" & game_n != 10) | (indicator != "mgolf" & game_n != 12) |
+                      (indicator != "mgolf" & game_n != 13) | (indicator != "mgolf" & game_n != 16) |
+                      (indicator != "mgolf" & game_n != 18)) %>%
+               filter((indicator != "sdt" & game_n != 10) | (indicator != "sdt" & game_n != 11) |
+                      (indicator != "sdt" & game_n != 12) | (indicator != "sdt" & game_n != 14) |
+                      (indicator != "sdt" & game_n != 15)) %>%
+               filter((indicator != "tf" & game_n != 3) | (indicator != "tf" & game_n != 4) |
+                      (indicator != "tf" & game_n != 7) | (indicator != "tf" & game_n != 11) |
+                      (indicator != "tf" & game_n != 15) | (indicator != "tf" & game_n != 22) |
+                      (indicator != "tf" & game_n != 24) | (indicator != "tf" & game_n != 27) |
+                      (indicator != "tf" & game_n != 30))
 
+# Hand-replacing stuff that got messed up/plane trips
+# Pretty inefficient but whatever
 
+# Women's Basketball
+emissions_1[emissions_1$indicator == "wbball" & emissions_1$game_n == 8, 
+            c(6, 7, 9, 10)] = c("Away", 2645, "plane", 330*14)
 
+# Cross Country
+emissions_1[emissions_1$indicator == "xc" & emissions_1$game_n == 5, 
+            c(6, 7, 9, 10)] = c("Away", 205, "pete", 205*404*1*2/1000)
+emissions_1[emissions_1$indicator == "xc" & emissions_1$game_n == 6, 
+            c(6, 7, 9, 10)] = c("Away", 295.6, "pete", 295.6*404*1*2/1000)
+emissions_1[emissions_1$indicator == "xc" & emissions_1$game_n == 7, 
+            c(6, 7, 9, 10)] = c("Away", 709, "plane", 206*10)
+
+# Women's Golf
+emissions_1[emissions_1$indicator == "wgolf" & emissions_1$game_n == 9, 
+            c(6, 7, 9, 10)] = c("Away", 166, "van", 166*523*1*2/1000)
+emissions_1[emissions_1$indicator == "wgolf" & emissions_1$game_n == 15, 
+            c(6, 7, 9, 10)] = c("Neutral", 0, "none", 0)
+emissions_1[emissions_1$indicator == "wgolf" & emissions_1$game_n == 17, 
+            c(6, 7, 9, 10)] = c("Away", 1252, "plane", 201*14) 
+# Men's Golf
+emissions_1[emissions_1$indicator == "mgolf" & emissions_1$game_n == 7, 
+            c(6, 7, 9, 10)] = c("Away", 9.4, "van", 9.4*523*1*2/1000) 
+emissions_1[emissions_1$indicator == "mgolf" & emissions_1$game_n == 9, 
+            c(6, 7, 9, 10)] = c("Away", 170, "van", 170*523*1*2/1000)
+emissions_1[emissions_1$indicator == "mgolf" & emissions_1$game_n == 12, 
+            c(6, 7, 9, 10)] = c("Away", 128, "van", 129*523*1*2/1000)
+emissions_1[emissions_1$indicator == "mgolf" & emissions_1$game_n == 15, 
+            c(6, 7, 9, 10)] = c("Away", 200, "van", 200*523*1*2/1000)
+emissions_1[emissions_1$indicator == "mgolf" & emissions_1$game_n == 17, 
+            c(6, 7, 9, 10)] = c("Away", 1180, "plane", 154*14)
+# Men's Lacrosse
+emissions_1[emissions_1$indicator == "mlax" & emissions_1$game_n == 3, 
+            c(6, 7, 9, 10)] = c("Away", 365, "pete", 365*404*1*2/1000)
+emissions_1[emissions_1$indicator == "mlax" & emissions_1$game_n == 17, 
+            c(6, 7, 9, 10)] = c("Away", 389, "pete", 389*404*1*2/1000)
+# Women's Soccer
+emissions_1[emissions_1$indicator == "wsoc" & emissions_1$game_n == 21, 
+            c(6, 7, 9, 10)] = c("Away", 570, "plane", 201*30)
+# Men's Soccer
+emissions_1[emissions_1$indicator == "msoc" & emissions_1$game_n == 17, 
+            c(6, 7, 9, 10)] = c("Away", 59.8, "pete", 59.8*404*1*2/1000)
+# Women's Squash
+emissions_1[emissions_1$indicator == "wsq" & emissions_1$game_n == 6, 
+            c(6, 7, 9, 10)] = c("Away", 374, "pete", 74*404*1*2/1000)
+emissions_1[emissions_1$indicator == "wsq" & emissions_1$game_n == 21, 
+            c(6, 7, 9, 10)] = c("Away", 59.8, "pete", 59.8*404*1*2/1000)
+# Men's Squash
+emissions_1[emissions_1$indicator == "msq" & emissions_1$game_n == 17, 
+            c(6, 7, 9, 10)] = c("Away", 52.8, "pete", 52.8*404*1*2/1000)
+emissions_1[emissions_1$indicator == "msq" & emissions_1$game_n == 18, 
+            c(6, 7, 9, 10)] = c("Away", 59.8, "pete", 59.8*404*1*2/10000)
+# Swim & Dive
+emissions_1[emissions_1$indicator == "sdt" & emissions_1$game_n == 9, 
+            c(6, 7, 9, 10)] = c("Away", 207, "pete", 207*404*1*2/1000)
+emissions_1[emissions_1$indicator == "sdt" & emissions_1$game_n == 13, 
+            c(6, 7, 9, 10)] = c("Away", 699, "plane", 183*54)
+# Men's Tennis
+emissions_1[emissions_1$indicator == "mtennis" & emissions_1$game_n == 1, 
+            c(6, 7, 9, 10)] = c("Away", 200, "van", 200*523*1*2/1000)
+emissions_1[emissions_1$indicator == "mtennis" & emissions_1$game_n == 3, 
+            c(6, 7, 9, 10)] = c("Away", 66.9, "van", 66.9*523*1*2/1000)
+emissions_1[emissions_1$indicator == "mtennis" & emissions_1$game_n == 6, 
+            c(6, 7, 9, 10)] = c("Away", 2880, "plane", 342*14)
+# Women's Tennis
+emissions_1[emissions_1$indicator == "wtennis" & emissions_1$game_n == 1, 
+            c(6, 7, 9, 10)] = c("Away", 88.9, "van", 88.9*523*1*2/1000)
+emissions_1[emissions_1$indicator == "wtennis" & emissions_1$game_n == 2, 
+            c(6, 7, 9, 10)] = c("Away", 59.8, "van", 59.8*523*1*2/1000)
+emissions_1[emissions_1$indicator == "wtennis" & emissions_1$game_n == 6, 
+            c(6, 7, 9, 10)] = c("Away", 2880, "plane", 342*14)
+emissions_1[emissions_1$indicator == "wtennis" & emissions_1$game_n == 18, 
+            c(6, 7, 9, 10)] = c("Away", 85, "van", 85*523*1*2/1000)
+emissions_1[emissions_1$indicator == "wtennis" & emissions_1$game_n == 7, 
+            c(6, 7, 9, 10)] = c("Neutral", 0, "none", 0)
+# Track & Field
+emissions_1[emissions_1$indicator == "tf" & emissions_1$game_n == 1, 
+            c(6, 7, 9, 10)] = c("Away", 66.9, "pete", 66.9*404*2*2/1000)
+emissions_1[emissions_1$indicator == "tf" & emissions_1$game_n == 13, 
+            c(6, 7, 9, 10)] = c("Away", 87.8, "pete", 87.8*404*2*2/1000)
+emissions_1[emissions_1$indicator == "tf" & emissions_1$game_n == 21, 
+            c(6, 7, 9, 10)] = c("Away", 99.7, "pete", 99.7*404*2*2/1000)
+emissions_1[emissions_1$indicator == "tf" & emissions_1$game_n == 22, 
+            c(6, 7, 9, 10)] = c("Away", 27.7, "pete", 27.7*404*2*2/1000)
+emissions_1[emissions_1$indicator == "tf" & emissions_1$game_n == 23, 
+            c(6, 7, 9, 10)] = c("Away", 91.3, "pete", 91.3*404*2*2/1000)
+emissions_1[emissions_1$indicator == "tf" & emissions_1$game_n == 24, 
+            c(6, 7, 9, 10)] = c("Away", 315.4, "pete", 315.4*404*2*2/1000)
+emissions_1[emissions_1$indicator == "tf" & emissions_1$game_n == 26, 
+            c(6, 7, 9, 10)] = c("Away", 9.4, "pete", 9.4*404*1*2/1000)
+emissions_1[emissions_1$indicator == "tf" & emissions_1$game_n == 29, 
+            c(6, 7, 9, 10)] = c("Away", 823, "plane", 200*10)
 ```
