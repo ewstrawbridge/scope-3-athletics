@@ -18,7 +18,7 @@ library(RColorBrewer)
 
 to do:
 add readme
-add tables at the end
+find the swim team
 
 ```{r collect files}
 # When this project was done, I did 22 (2022-2023) school year and 23 (2023-2024) school year. 
